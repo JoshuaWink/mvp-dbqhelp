@@ -306,6 +306,7 @@
   }
   .cup-powered-by {
     font-size: var(--cup-font-size-xs);
+    white-space: nowrap;
     opacity: 0.5;
     transition: opacity var(--cup-transition-fast);
   }
