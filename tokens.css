@@ -2,6 +2,7 @@
  * All visual decisions as CSS custom properties.
  * Override at any scope to customize. */
 
+@layer cup-tokens {
 :root {
   /* ── Color: Semantic, not decorative ── */
   --cup-color-surface:      #1a1a2e;
@@ -82,3 +83,4 @@
   --cup-z-modal:    400;
   --cup-z-toast:    500;
 }
+} /* end @layer cup-tokens */
