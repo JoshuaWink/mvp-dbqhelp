@@ -300,6 +300,10 @@
   [data-effect-delay="500"] { animation-delay: 500ms; }
 
   /* ── Powered-by attribution ── */
+  cup-powered-by {
+    display: block;
+    margin-top: var(--cup-space-xs);
+  }
   .cup-powered-by {
     font-size: var(--cup-font-size-xs);
     opacity: 0.5;

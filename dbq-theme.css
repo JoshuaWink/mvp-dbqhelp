@@ -560,9 +560,7 @@
   margin: var(--cup-space-xl) auto 0;
   padding-top: var(--cup-space-md);
   border-top: 1px solid rgba(255,255,255,0.15);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center;
   font-size: var(--cup-font-size-xs);
   opacity: 0.7;
 }
@@ -629,11 +627,6 @@ cup-checkbox {
   }
   .dbq-footer__inner {
     grid-template-columns: 1fr;
-  }
-  .dbq-footer__bottom {
-    flex-direction: column;
-    text-align: center;
-    gap: var(--cup-space-xs);
   }
   .dbq-contact-grid {
     grid-template-columns: 1fr;
