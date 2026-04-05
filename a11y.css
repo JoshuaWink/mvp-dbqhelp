@@ -57,12 +57,12 @@
     }
   }
 
-  /* ── Tap Fill ── */
+  /* ── Hit Fill ── */
   /* Stretch interactive element to fill flex/grid parent height.
    * Content stays centered. No sibling disruption.
    * Use on links, buttons, icons inside flex containers
-   * where the visual element is smaller than the ideal touch target. */
-  .cup-tap-fill {
+   * where the visual element is smaller than the ideal hit area. */
+  .cup-hit-fill {
     align-self: stretch;
     display: inline-flex;
     align-items: center;
