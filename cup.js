@@ -1,0 +1,35 @@
+// cup-core/cup.js — Registers ALL cup/core custom elements.
+// Single import: <script type="module" src="cup-core/cup.js"></script>
+
+// Nano components
+import './components/cup-label.js';
+import './components/cup-input.js';
+import './components/cup-hint.js';
+import './components/cup-error.js';
+import './components/cup-icon.js';
+import './components/cup-skeleton.js';
+import './components/cup-divider.js';
+
+// Micro components
+import './components/cup-field.js';
+import './components/cup-button.js';
+import './components/cup-select.js';
+import './components/cup-textarea.js';
+import './components/cup-checkbox.js';
+import './components/cup-radio-group.js';
+import './components/cup-number.js';
+import './components/cup-slider.js';
+import './components/cup-password.js';
+import './components/cup-file.js';
+import './components/cup-date.js';
+import './components/cup-toggle.js';
+import './components/cup-badge.js';
+import './components/cup-chip.js';
+
+// Component (organism)
+import './components/cup-toast.js';
+import './components/cup-stepper.js';
+import './components/cup-progress.js';
+
+// Re-export base
+export { CupElement, CssState } from './cup-element.js';
