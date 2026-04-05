@@ -528,7 +528,7 @@
   grid-template-columns: 2fr 1fr 1fr;
   gap: var(--cup-space-xl);
 }
-.dbq-footer h4 {
+.dbq-footer h3 {
   font-weight: var(--cup-font-weight-bold);
   margin-bottom: var(--cup-space-md);
   color: #ffffff;

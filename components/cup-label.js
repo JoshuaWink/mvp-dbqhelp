@@ -11,7 +11,7 @@ class CupLabel extends CupElement {
     const required = this.bool('required');
     const text = this._slottedText || '';
 
-    this.innerHTML = `<label class="cup-label"${forAttr ? ` for="${forAttr}"` : ''}${required ? ' data-required' : ''}>${text}${required ? ' <span aria-hidden="true">*</span>' : ''}</label>`;
+    this.innerHTML = `<label class="cup-label"${forAttr ? ` for="${forAttr}"` : ''}${required ? ' data-required' : ''}>${text}</label>`;
   }
 
   connectedCallback() {

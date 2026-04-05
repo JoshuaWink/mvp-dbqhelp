@@ -34,7 +34,7 @@ class CupRadioGroup extends CupElement {
       return `<label><input type="radio" id="${radioId}" name="${name}" value="${o.value}"${o.value === value ? ' checked' : ''}${disabled ? ' disabled' : ''}${required ? ' aria-required="true"' : ''}> ${o.label}</label>`;
     }).join('\n');
 
-    this.innerHTML = `<fieldset class="cup-radio-group">${label ? `<legend>${label}${required ? ' <span aria-hidden="true">*</span>' : ''}</legend>` : ''}${radios}</fieldset>`;
+    this.innerHTML = `<fieldset class="cup-radio-group"${required ? ' data-required' : ''}>${label ? `<legend>${label}</legend>` : ''}${radios}</fieldset>`;
   }
 }
 

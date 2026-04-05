@@ -1,0 +1,26 @@
+# ─────────────────────────────────────────────────────────────
+# DBQ Help — cup.toml
+#
+# Veteran mental health DBQ evaluation service.
+# Static site powered by cup-core design system.
+# ─────────────────────────────────────────────────────────────
+
+[project]
+name        = "mvp-dbqhelp"
+version     = "1.0.0"
+description = "DBQ Help — Veteran disability benefits questionnaire evaluation service"
+
+[frontend]
+framework = "static"
+
+[deploy]
+target = "docker"
+
+# ── Standards ───────────────────────────────────────────────
+# Section 508 compliance + WCAG 2.1 AA are required for
+# veteran-facing government-adjacent services.
+
+[standards]
+a11y       = ["wcag_2_1:AA"]
+seo        = ["seo_onpage"]
+security   = ["security_headers"]

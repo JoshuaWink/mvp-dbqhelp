@@ -51,7 +51,7 @@ class CupField extends CupElement {
     ].filter(Boolean).join(' ');
 
     this.innerHTML = [
-      label ? `<label class="cup-label" for="${id}-input"${required ? ' data-required' : ''}>${label}${required ? ' <span aria-hidden="true">*</span>' : ''}</label>` : '',
+      label ? `<label class="cup-label" for="${id}-input"${required ? ' data-required' : ''}>${label}</label>` : '',
       `<input ${inputAttrs}>`,
       hint ? `<span class="cup-hint" id="${id}-hint">${hint}</span>` : '',
       error ? `<span class="cup-error" id="${id}-error" role="alert">${error}</span>` : '',

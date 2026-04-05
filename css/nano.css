@@ -26,6 +26,11 @@
     color: var(--cup-color-error);
   }
 
+  .cup-radio-group[data-required] legend::after {
+    content: ' *';
+    color: var(--cup-color-error);
+  }
+
   /* ── Input ── */
   .cup-input {
     display: block;

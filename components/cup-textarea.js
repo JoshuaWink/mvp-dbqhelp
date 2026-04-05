@@ -47,7 +47,7 @@ class CupTextarea extends CupElement {
     ].filter(Boolean).join(' ');
 
     this.innerHTML = [
-      label ? `<label class="cup-label" for="${id}-input"${required ? ' data-required' : ''}>${label}${required ? ' <span aria-hidden="true">*</span>' : ''}</label>` : '',
+      label ? `<label class="cup-label" for="${id}-input"${required ? ' data-required' : ''}>${label}</label>` : '',
       `<textarea ${attrs}>${value}</textarea>`,
       maxlength ? `<span class="cup-char-count" id="${id}-count"${value.length > parseInt(maxlength) ? ' data-over' : ''}>${value.length}/${maxlength}</span>` : '',
       hint ? `<span class="cup-hint" id="${id}-hint">${hint}</span>` : '',

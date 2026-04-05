@@ -70,7 +70,7 @@ class CupPassword extends CupElement {
     ].filter(Boolean).join(' ');
 
     this.innerHTML = [
-      label ? `<label class="cup-label" for="${id}-input"${required ? ' data-required' : ''}>${label}${required ? ' <span aria-hidden="true">*</span>' : ''}</label>` : '',
+      label ? `<label class="cup-label" for="${id}-input"${required ? ' data-required' : ''}>${label}</label>` : '',
       `<div style="position:relative;"><input ${attrs}><button type="button" class="cup-button cup-button--ghost cup-button--sm" style="position:absolute;right:4px;top:50%;transform:translateY(-50%);" aria-label="${toggleLabel}" data-toggle-visibility>${this._visible ? '◉' : '◎'}</button></div>`,
       hint ? `<span class="cup-hint" id="${id}-hint">${hint}</span>` : '',
       error ? `<span class="cup-error" id="${id}-error" role="alert">${error}</span>` : '',
