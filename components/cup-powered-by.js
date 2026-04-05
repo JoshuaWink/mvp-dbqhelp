@@ -7,10 +7,10 @@ class CupPoweredBy extends CupElement {
   }
 
   render() {
-    const org = this.attr('org') || 'Orchestrate Solutions';
+    const org = this.attr('org') || 'Orchestrate';
     const href = this.attr('href') || 'https://orchestrate-solutions.github.io';
 
-    this.innerHTML = `<span class="cup-powered-by">An <a href="${href}" target="_blank" rel="noopener" title="${org}" class="cup-powered-by__link">${org}</a> Production</span>`;
+    this.innerHTML = `<span class="cup-powered-by">An <a href="${href}" target="_blank" rel="noopener" title="Orchestrate Solutions" class="cup-powered-by__link">${org}</a> Solution</span>`;
   }
 }
 
