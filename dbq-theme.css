@@ -599,11 +599,11 @@ cup-checkbox {
   text-align: center;
   padding: var(--cup-space-sm);
   font-size: var(--cup-font-size-xs);
-  color: rgba(255,255,255,0.4);
+  color: rgba(255,255,255,0.65);
   background: var(--dbq-color-footer-bg);
 }
 .dbq-powered-by a {
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.7);
   text-decoration: none;
 }
 .dbq-powered-by a:hover {
