@@ -533,6 +533,15 @@
   margin-bottom: var(--cup-space-md);
   color: #ffffff;
 }
+.dbq-footer p {
+  font-size: var(--cup-font-size-sm);
+}
+.dbq-footer p + p {
+  margin-top: 0;
+}
+.dbq-footer p:first-of-type {
+  margin-bottom: var(--cup-space-md);
+}
 .dbq-footer a {
   color: var(--dbq-color-footer-text);
   text-decoration: none;
