@@ -552,10 +552,11 @@
 .dbq-footer a:hover {
   color: var(--cup-color-on-primary);
 }
-/* Keep powered-by link inline so "An Orchestrate Solution" stays on one line */
+/* Keep powered-by link inline and at badge scale, not footer link scale */
 .dbq-footer .cup-powered-by__link {
   display: inline;
   margin-bottom: 0;
+  font-size: inherit;
 }
 .dbq-footer__contact-item {
   display: flex;
