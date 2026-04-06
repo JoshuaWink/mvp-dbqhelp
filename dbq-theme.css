@@ -552,6 +552,11 @@
 .dbq-footer a:hover {
   color: #ffffff;
 }
+/* Keep powered-by link inline so "An Orchestrate Solution" stays on one line */
+.dbq-footer .cup-powered-by__link {
+  display: inline;
+  margin-bottom: 0;
+}
 .dbq-footer__contact-item {
   display: flex;
   align-items: center;
