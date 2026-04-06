@@ -303,6 +303,7 @@
   cup-powered-by {
     display: block;
     margin-top: var(--cup-space-xs);
+    transition: opacity var(--cup-transition-normal);
   }
   .cup-powered-by {
     font-size: var(--cup-font-size-xs);
