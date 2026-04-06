@@ -1,7 +1,8 @@
 // cup-core/components/cup-theme-picker.js — <cup-theme-picker> component
-// Real-time theme editor with color pickers, presets, and CSS export.
-// Opens as a floating panel. Can be triggered programmatically or via attribute.
+// Tabbed floating panel: Theme editor + Inspector + Selections.
+// Draggable, resizable, non-blocking. Opens via cup-powered-by or programmatically.
 import { CupElement } from '../cup-element.js';
+import { InspectorEngine, STYLE_GROUPS } from './cup-inspector.js';
 
 // ── Built-in presets ──────────────────────────────────────────────
 const PRESETS = [
@@ -73,19 +74,29 @@ const PRESETS = [
   },
   {
     name: 'DBQ Veterans',
-    colors: {
-      '--cup-color-surface': '#ffffff', '--cup-color-on-surface': '#1a1a1a',
-      '--cup-color-surface-alt': '#f0f7f4', '--cup-color-primary': '#2d6a4f',
-      '--cup-color-on-primary': '#ffffff', '--cup-color-secondary': '#555555',
-      '--cup-color-error': '#c62828', '--cup-color-success': '#2e7d32',
-      '--cup-color-warning': '#e65100', '--cup-color-info': '#01579b',
-      '--cup-color-border': '#d1d5db', '--cup-color-focus': '#40916c',
+    resolve: () => {
+      const cs = getComputedStyle(document.documentElement);
+      const get = (p) => cs.getPropertyValue(p).trim() || undefined;
+      return {
+        '--cup-color-surface':     get('--cup-color-surface'),
+        '--cup-color-on-surface':  get('--cup-color-on-surface'),
+        '--cup-color-surface-alt': get('--cup-color-surface-alt'),
+        '--cup-color-primary':     get('--cup-color-primary'),
+        '--cup-color-on-primary':  get('--cup-color-on-primary'),
+        '--cup-color-secondary':   get('--cup-color-secondary'),
+        '--cup-color-error':       get('--cup-color-error'),
+        '--cup-color-success':     get('--cup-color-success'),
+        '--cup-color-warning':     get('--cup-color-warning'),
+        '--cup-color-info':        get('--cup-color-info'),
+        '--cup-color-border':      get('--cup-color-border'),
+        '--cup-color-focus':       get('--cup-color-focus'),
+      };
     },
   },
 ];
 
 // ── Token definitions for the editor grid ─────────────────────────
-const TOKENS = [
+const CORE_TOKENS = [
   { prop: '--cup-color-surface',     label: 'Surface' },
   { prop: '--cup-color-on-surface',  label: 'On Surface' },
   { prop: '--cup-color-surface-alt', label: 'Surface Alt' },
@@ -99,6 +110,46 @@ const TOKENS = [
   { prop: '--cup-color-border',      label: 'Border' },
   { prop: '--cup-color-focus',       label: 'Focus' },
 ];
+
+/** Scan all stylesheets for CSS custom properties that resolve to colors. */
+function discoverColorTokens() {
+  const coreSet = new Set(CORE_TOKENS.map(t => t.prop));
+  const found = new Set();
+  const cs = getComputedStyle(document.documentElement);
+
+  try {
+    for (const sheet of document.styleSheets) {
+      try {
+        for (const rule of sheet.cssRules || []) {
+          const text = rule.cssText || '';
+          const matches = text.match(/--[\w-]+/g);
+          if (!matches) continue;
+          for (const prop of matches) {
+            if (coreSet.has(prop) || found.has(prop)) continue;
+            const val = cs.getPropertyValue(prop).trim();
+            if (val && isColorValue(val)) found.add(prop);
+          }
+        }
+      } catch (_) { /* cross-origin stylesheet, skip */ }
+    }
+  } catch (_) { /* stylesheet access blocked */ }
+
+  return Array.from(found).sort().map(prop => ({
+    prop,
+    label: prop.replace(/^--(?:cup|dbq)-(?:color-)?/, '').replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()),
+  }));
+}
+
+/** Check if a CSS value is a color (hex, rgb, hsl, named). */
+function isColorValue(val) {
+  if (/^#[0-9a-fA-F]{3,8}$/.test(val)) return true;
+  if (/^(?:rgb|hsl)a?\(/.test(val)) return true;
+  // Test via canvas for named colors
+  const ctx = isColorValue._ctx || (isColorValue._ctx = document.createElement('canvas').getContext('2d'));
+  ctx.fillStyle = '#000001';
+  ctx.fillStyle = val;
+  return ctx.fillStyle !== '#000001';
+}
 
 function toHex(color) {
   if (!color) return '#000000';
@@ -130,9 +181,26 @@ class CupThemePicker extends CupElement {
   constructor() {
     super();
     this._panel = null;
-    this._backdrop = null;
-    this._presets = [...PRESETS];
+    this._presets = PRESETS.map(p =>
+      p.resolve ? { name: p.name, colors: p.resolve() } : { ...p }
+    );
     this._onKeyDown = this._onKeyDown.bind(this);
+    this._inspector = new InspectorEngine();
+    this._activeTab = 'theme';
+    this._minimized = false;
+
+    // Drag state
+    this._dragOffset = { x: 0, y: 0 };
+    this._onDragMove = this._onDragMove.bind(this);
+    this._onDragEnd = this._onDragEnd.bind(this);
+
+    // Wire inspector callbacks
+    this._inspector.onSelect = (entry) => {
+      this._showInspectEntry(entry);
+    };
+    this._inspector.onEntriesChange = () => {
+      this._refreshSelections();
+    };
   }
 
   /** Register additional presets programmatically. */
@@ -142,16 +210,12 @@ class CupThemePicker extends CupElement {
   }
 
   render() {
-    // No visible trigger — picker is opened programmatically by cup-powered-by.
-    // Element stays hidden until open() is called.
+    // No visible trigger — opened programmatically by cup-powered-by.
   }
 
   toggle() {
-    if (this.hasAttribute('open')) {
-      this.close();
-    } else {
-      this.open();
-    }
+    if (this.hasAttribute('open')) this.close();
+    else this.open();
   }
 
   open() {
@@ -159,83 +223,268 @@ class CupThemePicker extends CupElement {
     this._syncInputs();
     this.setAttribute('open', '');
     this._panel.style.display = 'flex';
-    this._backdrop.style.display = 'block';
     document.addEventListener('keydown', this._onKeyDown);
-    this._panel.querySelector('.cup-tp__close').focus();
+
+    // Restore position from localStorage
+    const pos = this._loadPos();
+    if (pos) {
+      this._panel.style.left = pos.left;
+      this._panel.style.top = pos.top;
+      if (pos.width) this._panel.style.width = pos.width;
+    }
   }
 
   close() {
     this.removeAttribute('open');
     if (this._panel) this._panel.style.display = 'none';
-    if (this._backdrop) this._backdrop.style.display = 'none';
+    this._inspector.stopPick();
     document.removeEventListener('keydown', this._onKeyDown);
   }
 
   _onKeyDown(e) {
-    if (e.key === 'Escape') this.close();
+    if (e.key === 'Escape') {
+      if (this._inspector.pickActive) {
+        this._inspector.stopPick();
+        this._updatePickBtn();
+      } else {
+        this.close();
+      }
+    }
   }
 
   _buildPanel() {
-    // Backdrop
-    this._backdrop = document.createElement('div');
-    this._backdrop.className = 'cup-tp__backdrop';
-    this._backdrop.addEventListener('click', () => this.close());
-    document.body.appendChild(this._backdrop);
-
-    // Panel
+    // Panel (no backdrop — non-blocking)
     this._panel = document.createElement('div');
     this._panel.className = 'cup-tp';
     this._panel.setAttribute('role', 'dialog');
-    this._panel.setAttribute('aria-label', 'Theme Editor');
+    this._panel.setAttribute('aria-label', 'Cup Inspector');
     this._panel.style.display = 'none';
 
-    // Header
+    // ── Header with drag handle ──
     const header = document.createElement('div');
-    header.className = 'cup-tp__header';
+    header.className = 'cup-tp__header cup-tp__drag-handle';
     header.innerHTML = `
-      <span class="cup-tp__title">Theme Editor</span>
-      <button class="cup-tp__close" aria-label="Close theme editor">&times;</button>
+      <span class="cup-tp__title">&#9881; Cup Inspector</span>
+      <div class="cup-tp__header-btns">
+        <button class="cup-tp__minimize" aria-label="Minimize" title="Minimize">&#8211;</button>
+        <button class="cup-tp__close" aria-label="Close">&times;</button>
+      </div>
     `;
     header.querySelector('.cup-tp__close').addEventListener('click', () => this.close());
+    header.querySelector('.cup-tp__minimize').addEventListener('click', () => this._toggleMinimize());
+    header.addEventListener('mousedown', (e) => this._onDragStart(e));
     this._panel.appendChild(header);
 
-    // Presets section
+    // ── Tab bar ──
+    const tabBar = document.createElement('div');
+    tabBar.className = 'cup-tp__tabs';
+    tabBar.innerHTML = `
+      <button class="cup-tp__tab cup-tp__tab--active" data-tab="theme">&#127912; Theme</button>
+      <button class="cup-tp__tab" data-tab="inspect">&#128269; Inspect</button>
+      <button class="cup-tp__tab" data-tab="selections">&#128203; Selections</button>
+    `;
+    tabBar.addEventListener('click', (e) => {
+      const tab = e.target.closest('[data-tab]');
+      if (tab) this._switchTab(tab.dataset.tab);
+    });
+    this._panel.appendChild(tabBar);
+    this._tabBar = tabBar;
+
+    // ── Tab body container ──
+    const tabBody = document.createElement('div');
+    tabBody.className = 'cup-tp__tab-body';
+    this._panel.appendChild(tabBody);
+    this._tabBody = tabBody;
+
+    // ── Build each tab content ──
+    this._themeTab = this._buildThemeTab();
+    this._inspectTab = this._buildInspectTab();
+    this._selectionsTab = this._buildSelectionsTab();
+
+    tabBody.appendChild(this._themeTab);
+    tabBody.appendChild(this._inspectTab);
+    tabBody.appendChild(this._selectionsTab);
+
+    // Show only theme tab initially
+    this._inspectTab.style.display = 'none';
+    this._selectionsTab.style.display = 'none';
+
+    // ── Resize handle ──
+    const resizeHandle = document.createElement('div');
+    resizeHandle.className = 'cup-tp__resize-handle';
+    resizeHandle.textContent = '⋮⋮';
+    resizeHandle.addEventListener('mousedown', (e) => this._onResizeStart(e));
+    this._panel.appendChild(resizeHandle);
+
+    document.body.appendChild(this._panel);
+  }
+
+  // ── Tab management ──────────────────────────────────────────────
+  _switchTab(name) {
+    this._activeTab = name;
+    this._tabBar.querySelectorAll('.cup-tp__tab').forEach(t => {
+      t.classList.toggle('cup-tp__tab--active', t.dataset.tab === name);
+    });
+    this._themeTab.style.display = name === 'theme' ? '' : 'none';
+    this._inspectTab.style.display = name === 'inspect' ? '' : 'none';
+    this._selectionsTab.style.display = name === 'selections' ? '' : 'none';
+
+    // Auto-start pick mode when switching to inspect
+    if (name === 'inspect' && !this._inspector.pickActive) {
+      this._inspector.startPick();
+      this._updatePickBtn();
+    }
+    // Stop pick mode when leaving inspect
+    if (name !== 'inspect' && this._inspector.pickActive) {
+      this._inspector.stopPick();
+      this._updatePickBtn();
+    }
+  }
+
+  // ── Minimize ────────────────────────────────────────────────────
+  _toggleMinimize() {
+    this._minimized = !this._minimized;
+    this._tabBar.style.display = this._minimized ? 'none' : '';
+    this._tabBody.style.display = this._minimized ? 'none' : '';
+    const rh = this._panel.querySelector('.cup-tp__resize-handle');
+    if (rh) rh.style.display = this._minimized ? 'none' : '';
+    this._panel.querySelector('.cup-tp__minimize').textContent = this._minimized ? '+' : '\u2013';
+  }
+
+  // ── Drag ────────────────────────────────────────────────────────
+  _onDragStart(e) {
+    if (e.target.closest('button')) return; // don't drag when clicking buttons
+    e.preventDefault();
+    const rect = this._panel.getBoundingClientRect();
+    this._dragOffset = { x: e.clientX - rect.left, y: e.clientY - rect.top };
+    document.addEventListener('mousemove', this._onDragMove);
+    document.addEventListener('mouseup', this._onDragEnd);
+    this._panel.style.transition = 'none';
+  }
+
+  _onDragMove(e) {
+    const x = Math.max(0, Math.min(e.clientX - this._dragOffset.x, window.innerWidth - 50));
+    const y = Math.max(0, Math.min(e.clientY - this._dragOffset.y, window.innerHeight - 50));
+    this._panel.style.left = x + 'px';
+    this._panel.style.top = y + 'px';
+    this._panel.style.right = 'auto';
+    this._panel.style.transform = 'none';
+  }
+
+  _onDragEnd() {
+    document.removeEventListener('mousemove', this._onDragMove);
+    document.removeEventListener('mouseup', this._onDragEnd);
+    this._panel.style.transition = '';
+    this._savePos();
+  }
+
+  // ── Resize ──────────────────────────────────────────────────────
+  _onResizeStart(e) {
+    e.preventDefault();
+    const startW = this._panel.offsetWidth;
+    const startH = this._panel.offsetHeight;
+    const startX = e.clientX;
+    const startY = e.clientY;
+
+    const move = (ev) => {
+      const w = Math.max(320, Math.min(600, startW + (ev.clientX - startX)));
+      const h = Math.max(300, startH + (ev.clientY - startY));
+      this._panel.style.width = w + 'px';
+      this._panel.style.maxHeight = h + 'px';
+    };
+    const up = () => {
+      document.removeEventListener('mousemove', move);
+      document.removeEventListener('mouseup', up);
+      this._savePos();
+    };
+    document.addEventListener('mousemove', move);
+    document.addEventListener('mouseup', up);
+  }
+
+  // ── Position persistence ────────────────────────────────────────
+  _savePos() {
+    try {
+      localStorage.setItem('cup-tp-pos', JSON.stringify({
+        left: this._panel.style.left,
+        top: this._panel.style.top,
+        width: this._panel.style.width,
+      }));
+    } catch (_) {}
+  }
+
+  _loadPos() {
+    try {
+      return JSON.parse(localStorage.getItem('cup-tp-pos'));
+    } catch (_) { return null; }
+  }
+
+  // ══════════════════════════════════════════════════════════════
+  // TAB BUILDERS
+  // ══════════════════════════════════════════════════════════════
+
+  _buildThemeTab() {
+    const tab = document.createElement('div');
+    tab.className = 'cup-tp__tab-content';
+    tab.dataset.tabContent = 'theme';
+
+    // Presets
     const presetsWrap = document.createElement('div');
     presetsWrap.className = 'cup-tp__section';
     presetsWrap.innerHTML = '<div class="cup-tp__section-title">Presets</div>';
     const presetGrid = document.createElement('div');
     presetGrid.className = 'cup-tp__presets';
     presetsWrap.appendChild(presetGrid);
-    this._panel.appendChild(presetsWrap);
+    tab.appendChild(presetsWrap);
     this._presetGrid = presetGrid;
     this._rebuildPresets();
 
-    // Color grid
+    // Color grid (core tokens)
     const colorsWrap = document.createElement('div');
     colorsWrap.className = 'cup-tp__section';
     colorsWrap.innerHTML = '<div class="cup-tp__section-title">Colors</div>';
     const colorGrid = document.createElement('div');
     colorGrid.className = 'cup-tp__colors';
-    for (const t of TOKENS) {
-      const row = document.createElement('label');
-      row.className = 'cup-tp__color-row';
-      row.innerHTML = `
-        <input type="color" class="cup-tp__swatch" data-prop="${t.prop}" value="#000000">
-        <span class="cup-tp__color-label">${t.label}</span>
-      `;
-      colorGrid.appendChild(row);
+    for (const t of CORE_TOKENS) {
+      colorGrid.appendChild(this._buildColorRow(t));
     }
     colorsWrap.appendChild(colorGrid);
-    this._panel.appendChild(colorsWrap);
-
-    // Live editing
+    tab.appendChild(colorsWrap);
     colorGrid.addEventListener('input', (e) => {
-      const input = e.target;
-      if (input.dataset.prop) {
-        document.documentElement.style.setProperty(input.dataset.prop, input.value);
+      if (e.target.dataset.prop) {
+        document.documentElement.style.setProperty(e.target.dataset.prop, e.target.value);
       }
     });
     this._colorGrid = colorGrid;
+
+    // Advanced Settings
+    const advWrap = document.createElement('div');
+    advWrap.className = 'cup-tp__section';
+    const advToggle = document.createElement('button');
+    advToggle.className = 'cup-tp__adv-toggle';
+    advToggle.setAttribute('aria-expanded', 'false');
+    advToggle.innerHTML = '<span class="cup-tp__adv-arrow">&#9654;</span> Advanced Settings';
+    const advBody = document.createElement('div');
+    advBody.className = 'cup-tp__adv-body';
+    advBody.style.display = 'none';
+    const advGrid = document.createElement('div');
+    advGrid.className = 'cup-tp__colors';
+    advBody.appendChild(advGrid);
+    advToggle.addEventListener('click', () => {
+      const open = advBody.style.display !== 'none';
+      advBody.style.display = open ? 'none' : 'block';
+      advToggle.setAttribute('aria-expanded', String(!open));
+      advToggle.querySelector('.cup-tp__adv-arrow').innerHTML = open ? '&#9654;' : '&#9660;';
+      if (!open && advGrid.children.length === 0) this._populateAdvanced(advGrid);
+    });
+    advGrid.addEventListener('input', (e) => {
+      if (e.target.dataset.prop) {
+        document.documentElement.style.setProperty(e.target.dataset.prop, e.target.value);
+      }
+    });
+    advWrap.appendChild(advToggle);
+    advWrap.appendChild(advBody);
+    tab.appendChild(advWrap);
+    this._advGrid = advGrid;
 
     // Actions
     const actions = document.createElement('div');
@@ -248,10 +497,292 @@ class CupThemePicker extends CupElement {
     actions.querySelector('.cup-tp__btn--reset').addEventListener('click', () => this._reset());
     actions.querySelector('.cup-tp__btn--export').addEventListener('click', () => this._exportCSS());
     actions.querySelector('.cup-tp__btn--share').addEventListener('click', () => this._shareLink());
-    this._panel.appendChild(actions);
+    tab.appendChild(actions);
 
-    document.body.appendChild(this._panel);
+    return tab;
   }
+
+  _buildInspectTab() {
+    const tab = document.createElement('div');
+    tab.className = 'cup-tp__tab-content';
+    tab.dataset.tabContent = 'inspect';
+
+    // Controls
+    const controls = document.createElement('div');
+    controls.className = 'cup-insp__controls';
+    controls.innerHTML = `
+      <button class="cup-tp__btn cup-insp__pick-btn cup-insp__pick-btn--on">&#9678; Pick Mode: ON</button>
+      <label class="cup-insp__multi-label">
+        <input type="checkbox" class="cup-insp__multi-chk"> Multi-select
+      </label>
+    `;
+    this._pickBtn = controls.querySelector('.cup-insp__pick-btn');
+    this._pickBtn.addEventListener('click', () => {
+      if (this._inspector.pickActive) this._inspector.stopPick();
+      else this._inspector.startPick();
+      this._updatePickBtn();
+    });
+    controls.querySelector('.cup-insp__multi-chk').addEventListener('change', (e) => {
+      this._inspector.multiSelect = e.target.checked;
+    });
+    tab.appendChild(controls);
+
+    // Inspect content area (populated when element is clicked)
+    const content = document.createElement('div');
+    content.className = 'cup-insp__content';
+    content.innerHTML = '<div class="cup-insp__empty">Click an element on the page to inspect it.</div>';
+    tab.appendChild(content);
+    this._inspectContent = content;
+
+    return tab;
+  }
+
+  _buildSelectionsTab() {
+    const tab = document.createElement('div');
+    tab.className = 'cup-tp__tab-content';
+    tab.dataset.tabContent = 'selections';
+
+    // List area
+    const list = document.createElement('div');
+    list.className = 'cup-sel__list';
+    list.innerHTML = '<div class="cup-insp__empty">No selections yet. Use Inspect tab to pick elements.</div>';
+    tab.appendChild(list);
+    this._selList = list;
+
+    // Actions
+    const actions = document.createElement('div');
+    actions.className = 'cup-tp__actions';
+    actions.innerHTML = `
+      <button class="cup-tp__btn cup-sel__btn--clear">Clear All</button>
+      <button class="cup-tp__btn cup-sel__btn--undo">Undo Edits</button>
+      <button class="cup-tp__btn cup-sel__btn--copy">&#128203; Copy</button>
+      <button class="cup-tp__btn cup-sel__btn--json">JSON</button>
+      <button class="cup-tp__btn cup-sel__btn--css">CSS Patch</button>
+    `;
+    actions.querySelector('.cup-sel__btn--clear').addEventListener('click', () => {
+      this._inspector.clearEntries();
+    });
+    actions.querySelector('.cup-sel__btn--undo').addEventListener('click', () => {
+      this._inspector.undoAllEdits();
+      this._refreshSelections();
+    });
+    actions.querySelector('.cup-sel__btn--copy').addEventListener('click', () => {
+      this._copyToClipboard(this._inspector.exportMarkdown(), actions.querySelector('.cup-sel__btn--copy'));
+    });
+    actions.querySelector('.cup-sel__btn--json').addEventListener('click', () => {
+      this._copyToClipboard(this._inspector.exportJSON(), actions.querySelector('.cup-sel__btn--json'));
+    });
+    actions.querySelector('.cup-sel__btn--css').addEventListener('click', () => {
+      this._copyToClipboard(this._inspector.exportCSS(), actions.querySelector('.cup-sel__btn--css'));
+    });
+    tab.appendChild(actions);
+
+    return tab;
+  }
+
+  _copyToClipboard(text, btn) {
+    navigator.clipboard.writeText(text).then(() => {
+      const orig = btn.textContent;
+      btn.textContent = 'Copied!';
+      setTimeout(() => { btn.textContent = orig; }, 1500);
+    });
+  }
+
+  // ══════════════════════════════════════════════════════════════
+  // INSPECT TAB RENDERING
+  // ══════════════════════════════════════════════════════════════
+
+  _updatePickBtn() {
+    if (!this._pickBtn) return;
+    const on = this._inspector.pickActive;
+    this._pickBtn.textContent = on ? '\u25CE Pick Mode: ON' : '\u25CB Pick Mode: OFF';
+    this._pickBtn.classList.toggle('cup-insp__pick-btn--on', on);
+  }
+
+  _showInspectEntry(entry) {
+    const c = this._inspectContent;
+    c.innerHTML = '';
+
+    // Selected element header
+    const header = document.createElement('div');
+    header.className = 'cup-insp__selected-header';
+    header.innerHTML = `
+      <div class="cup-tp__section-title">Selected: ${esc(entry.selector)}</div>
+      <div class="cup-insp__meta">
+        Tag: <strong>${entry.tagName}</strong> &nbsp;|&nbsp;
+        Size: <strong>${entry.rect.width} &times; ${entry.rect.height}</strong>
+      </div>
+    `;
+    c.appendChild(header);
+
+    // Style groups
+    for (const [group, props] of Object.entries(entry.computed)) {
+      const section = document.createElement('div');
+      section.className = 'cup-insp__section';
+      section.innerHTML = `<div class="cup-tp__section-title">${esc(group)}</div>`;
+      const grid = document.createElement('div');
+      grid.className = 'cup-insp__props';
+
+      for (const [prop, val] of Object.entries(props)) {
+        if (!val || val === 'none' || val === 'normal' || val === 'auto') continue;
+        const row = document.createElement('div');
+        row.className = 'cup-insp__prop';
+
+        const nameSpan = document.createElement('span');
+        nameSpan.className = 'cup-insp__prop-name';
+        nameSpan.textContent = prop;
+
+        const valInput = document.createElement('input');
+        valInput.className = 'cup-insp__prop-value';
+        valInput.type = 'text';
+        valInput.value = val.length > 60 ? val.slice(0, 57) + '...' : val;
+        valInput.title = val;
+        valInput.addEventListener('change', () => {
+          this._inspector.applyEdit(entry, prop, valInput.value);
+          valInput.classList.add('cup-insp__prop-value--mod');
+        });
+
+        row.appendChild(nameSpan);
+        row.appendChild(valInput);
+
+        // Token badge
+        const token = entry.tokens.find(t => t.usedIn.includes(prop));
+        if (token) {
+          const badge = document.createElement('span');
+          badge.className = 'cup-insp__prop-token';
+          badge.textContent = token.property;
+          badge.title = `Token: ${token.property} = ${token.value}`;
+          badge.addEventListener('click', () => {
+            this._switchTab('theme');
+          });
+          row.appendChild(badge);
+        }
+
+        grid.appendChild(row);
+      }
+      section.appendChild(grid);
+      c.appendChild(section);
+    }
+
+    // Token summary
+    if (entry.tokens.length) {
+      const tokenSection = document.createElement('div');
+      tokenSection.className = 'cup-insp__section';
+      tokenSection.innerHTML = `<div class="cup-tp__section-title">Token Usage</div>`;
+      const tokenList = document.createElement('div');
+      tokenList.className = 'cup-insp__props';
+      for (const t of entry.tokens) {
+        const row = document.createElement('div');
+        row.className = 'cup-insp__prop';
+        row.innerHTML = `
+          <span class="cup-insp__prop-token">${esc(t.property)}</span>
+          <span class="cup-insp__prop-name" style="opacity:0.6">&rarr; ${esc(t.usedIn.join(', '))}</span>
+        `;
+        tokenList.appendChild(row);
+      }
+      tokenSection.appendChild(tokenList);
+      c.appendChild(tokenSection);
+    }
+
+    // Note + Add to selections
+    const noteWrap = document.createElement('div');
+    noteWrap.className = 'cup-insp__note-wrap';
+    noteWrap.innerHTML = `
+      <textarea class="cup-insp__note" placeholder="Add a note..." rows="2"></textarea>
+      <button class="cup-tp__btn cup-insp__add-btn">+ Add to Selections</button>
+    `;
+    noteWrap.querySelector('.cup-insp__note').addEventListener('input', (e) => {
+      entry.note = e.target.value;
+    });
+    noteWrap.querySelector('.cup-insp__add-btn').addEventListener('click', () => {
+      entry.note = noteWrap.querySelector('.cup-insp__note').value;
+      this._inspector.addCurrentToSelections();
+      this._refreshSelections();
+      this._flashBtn(noteWrap.querySelector('.cup-insp__add-btn'), 'Added!');
+    });
+    c.appendChild(noteWrap);
+  }
+
+  _flashBtn(btn, msg) {
+    const orig = btn.textContent;
+    btn.textContent = msg;
+    setTimeout(() => { btn.textContent = orig; }, 1200);
+  }
+
+  // ══════════════════════════════════════════════════════════════
+  // SELECTIONS TAB RENDERING
+  // ══════════════════════════════════════════════════════════════
+
+  _refreshSelections() {
+    const list = this._selList;
+    const entries = this._inspector.entries;
+
+    if (entries.length === 0) {
+      list.innerHTML = '<div class="cup-insp__empty">No selections yet. Use Inspect tab to pick elements.</div>';
+      return;
+    }
+
+    list.innerHTML = '';
+    entries.forEach((entry, i) => {
+      const card = document.createElement('div');
+      card.className = 'cup-sel__entry';
+
+      const header = document.createElement('div');
+      header.className = 'cup-sel__entry-header';
+      header.innerHTML = `
+        <span class="cup-sel__entry-num">${i + 1}</span>
+        <span class="cup-sel__entry-selector">${esc(entry.selector)}</span>
+        <button class="cup-sel__entry-remove" title="Remove" aria-label="Remove">&times;</button>
+      `;
+      header.querySelector('.cup-sel__entry-remove').addEventListener('click', () => {
+        this._inspector.removeEntry(entry.id);
+      });
+      // Hover highlights the page element
+      header.addEventListener('mouseenter', () => {
+        this._inspector.overlay.showHover(entry.element);
+      });
+      header.addEventListener('mouseleave', () => {
+        this._inspector.overlay.hideHover();
+      });
+      card.appendChild(header);
+
+      // Summary: show a few key styles
+      const summary = document.createElement('div');
+      summary.className = 'cup-sel__entry-summary';
+      const keyStyles = [];
+      for (const [, props] of Object.entries(entry.computed)) {
+        for (const [prop, val] of Object.entries(props)) {
+          if (val && val !== 'none' && val !== 'normal' && val !== 'auto' && val !== '0px' && keyStyles.length < 4) {
+            keyStyles.push(`${prop}: ${val.length > 30 ? val.slice(0, 27) + '...' : val}`);
+          }
+        }
+      }
+      summary.textContent = keyStyles.join('; ');
+      card.appendChild(summary);
+
+      // Note
+      if (entry.note) {
+        const note = document.createElement('div');
+        note.className = 'cup-sel__entry-note';
+        note.textContent = entry.note;
+        card.appendChild(note);
+      }
+
+      // Edits
+      if (entry.edits.length) {
+        const edits = document.createElement('div');
+        edits.className = 'cup-sel__entry-edits';
+        edits.textContent = entry.edits.map(e => `${e.property}: ${e.original} → ${e.modified}`).join('; ');
+        card.appendChild(edits);
+      }
+
+      list.appendChild(card);
+    });
+  }
+
+  // ══════════════════════════════════════════════════════════════
+  // THEME TAB METHODS (unchanged logic, reorganized)
+  // ══════════════════════════════════════════════════════════════
 
   _rebuildPresets() {
     if (!this._presetGrid) return;
@@ -290,17 +821,55 @@ class CupThemePicker extends CupElement {
     this.dispatchEvent(new CustomEvent('theme-change', { detail: { preset: preset.name, colors: preset.colors }, bubbles: true }));
   }
 
-  _syncInputs() {
-    if (!this._colorGrid) return;
+  _buildColorRow(token) {
+    const row = document.createElement('label');
+    row.className = 'cup-tp__color-row';
+    row.innerHTML = `
+      <input type="color" class="cup-tp__swatch" data-prop="${token.prop}" value="#000000">
+      <span class="cup-tp__color-label" title="${token.prop}">${esc(token.label)}</span>
+    `;
+    return row;
+  }
+
+  _populateAdvanced(grid) {
+    const tokens = discoverColorTokens();
+    if (tokens.length === 0) {
+      grid.innerHTML = '<div class="cup-tp__color-label" style="grid-column:1/-1;opacity:0.5;">No additional color tokens found.</div>';
+      return;
+    }
+    for (const t of tokens) {
+      grid.appendChild(this._buildColorRow(t));
+    }
+    // Sync values
     const cs = getComputedStyle(document.documentElement);
-    this._colorGrid.querySelectorAll('[data-prop]').forEach(input => {
+    grid.querySelectorAll('[data-prop]').forEach(input => {
       input.value = toHex(cs.getPropertyValue(input.dataset.prop));
     });
   }
 
+  _syncInputs() {
+    const cs = getComputedStyle(document.documentElement);
+    const sync = (grid) => {
+      if (!grid) return;
+      grid.querySelectorAll('[data-prop]').forEach(input => {
+        input.value = toHex(cs.getPropertyValue(input.dataset.prop));
+      });
+    };
+    sync(this._colorGrid);
+    sync(this._advGrid);
+  }
+
   _reset() {
-    for (const t of TOKENS) {
-      document.documentElement.style.removeProperty(t.prop);
+    const root = document.documentElement;
+    // Reset core tokens
+    for (const t of CORE_TOKENS) {
+      root.style.removeProperty(t.prop);
+    }
+    // Reset any advanced tokens that were modified
+    if (this._advGrid) {
+      this._advGrid.querySelectorAll('[data-prop]').forEach(input => {
+        root.style.removeProperty(input.dataset.prop);
+      });
     }
     this._syncInputs();
     this._presetGrid.querySelectorAll('.cup-tp__preset').forEach(c => c.classList.remove('cup-tp__preset--active'));
@@ -310,8 +879,16 @@ class CupThemePicker extends CupElement {
   _exportCSS() {
     const cs = getComputedStyle(document.documentElement);
     let css = ':root {\n';
-    for (const t of TOKENS) {
+    // Core tokens
+    for (const t of CORE_TOKENS) {
       css += `  ${t.prop}: ${cs.getPropertyValue(t.prop).trim()};\n`;
+    }
+    // Advanced tokens that exist
+    if (this._advGrid) {
+      this._advGrid.querySelectorAll('[data-prop]').forEach(input => {
+        const val = cs.getPropertyValue(input.dataset.prop).trim();
+        if (val) css += `  ${input.dataset.prop}: ${val};\n`;
+      });
     }
     css += '}';
     navigator.clipboard.writeText(css).then(() => {
@@ -325,9 +902,17 @@ class CupThemePicker extends CupElement {
   _shareLink() {
     const cs = getComputedStyle(document.documentElement);
     const params = new URLSearchParams();
-    for (const t of TOKENS) {
+    for (const t of CORE_TOKENS) {
       const val = cs.getPropertyValue(t.prop).trim();
       if (val) params.set(t.prop.replace('--cup-color-', ''), val.replace('#', ''));
+    }
+    // Include advanced tokens that were modified
+    if (this._advGrid) {
+      this._advGrid.querySelectorAll('[data-prop]').forEach(input => {
+        const prop = input.dataset.prop;
+        const val = cs.getPropertyValue(prop).trim();
+        if (val) params.set(prop.replace(/^--/, ''), val.replace('#', ''));
+      });
     }
     const url = location.origin + location.pathname + '?theme=' + params.toString();
     navigator.clipboard.writeText(url).then(() => {
@@ -345,11 +930,12 @@ class CupThemePicker extends CupElement {
     if (!themeParam) return false;
     const tokens = new URLSearchParams(themeParam);
     for (const [key, val] of tokens) {
-      document.documentElement.style.setProperty(`--cup-color-${key}`, `#${val}`);
+      const prop = key.startsWith('cup-color-') ? `--${key}` : `--cup-color-${key}`;
+      document.documentElement.style.setProperty(prop, `#${val}`);
     }
     return true;
   }
 }
 
 customElements.define('cup-theme-picker', CupThemePicker);
-export { CupThemePicker, PRESETS, TOKENS };
+export { CupThemePicker, PRESETS, CORE_TOKENS };
