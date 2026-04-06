@@ -10,6 +10,7 @@ import './components/cup-icon.js';
 import './components/cup-skeleton.js';
 import './components/cup-divider.js';
 import './components/cup-powered-by.js';
+import './components/cup-theme-picker.js';
 
 // Micro components
 import './components/cup-field.js';

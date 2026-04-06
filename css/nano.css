@@ -306,7 +306,6 @@
   }
   .cup-powered-by {
     font-size: var(--cup-font-size-xs);
-    white-space: nowrap;
     opacity: 0.5;
     transition: opacity var(--cup-transition-fast);
   }
@@ -321,5 +320,171 @@
   }
   .cup-powered-by__link:hover {
     text-decoration: underline;
+  }
+  .cup-powered-by__sol {
+    cursor: pointer;
+    transition: opacity var(--cup-transition-fast);
+  }
+  .cup-powered-by__sol:hover,
+  .cup-powered-by__sol:focus-visible {
+    opacity: 1;
+    text-decoration: underline;
+  }
+
+  /* ── Theme Picker ── */
+  cup-theme-picker {
+    display: inline-block;
+  }
+  .cup-theme-picker__trigger {
+    cursor: pointer;
+    font-size: inherit;
+    opacity: 0.4;
+    transition: opacity var(--cup-transition-fast);
+    user-select: none;
+  }
+  .cup-theme-picker__trigger:hover,
+  .cup-theme-picker__trigger:focus-visible {
+    opacity: 0.8;
+  }
+  .cup-tp__backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 9998;
+    display: none;
+  }
+  .cup-tp {
+    position: fixed;
+    top: 50%;
+    right: var(--cup-space-md);
+    transform: translateY(-50%);
+    width: 300px;
+    max-height: 90vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--cup-space-sm);
+    background: var(--cup-color-surface);
+    color: var(--cup-color-on-surface);
+    border: 1px solid var(--cup-color-border);
+    border-radius: var(--cup-radius-md);
+    box-shadow: var(--cup-shadow-lg);
+    padding: var(--cup-space-md);
+    z-index: 9999;
+    font-size: var(--cup-font-size-sm);
+  }
+  .cup-tp__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cup-tp__title {
+    font-weight: 700;
+    font-size: var(--cup-font-size-base);
+  }
+  .cup-tp__close {
+    background: none;
+    border: none;
+    color: var(--cup-color-on-surface);
+    font-size: var(--cup-font-size-xl);
+    cursor: pointer;
+    line-height: 1;
+    padding: 0 var(--cup-space-2xs);
+  }
+  .cup-tp__close:hover { opacity: 0.6; }
+  .cup-tp__section-title {
+    font-weight: 600;
+    font-size: var(--cup-font-size-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+    margin-bottom: var(--cup-space-xs);
+  }
+  .cup-tp__presets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--cup-space-xs);
+  }
+  .cup-tp__preset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--cup-space-2xs);
+    padding: var(--cup-space-xs);
+    background: var(--cup-color-surface-alt);
+    border: 1px solid var(--cup-color-border);
+    border-radius: var(--cup-radius-sm);
+    cursor: pointer;
+    transition: border-color var(--cup-transition-fast);
+    color: var(--cup-color-on-surface);
+    font-family: inherit;
+  }
+  .cup-tp__preset:hover {
+    border-color: var(--cup-color-primary);
+  }
+  .cup-tp__preset--active {
+    border-color: var(--cup-color-primary);
+    box-shadow: 0 0 0 1px var(--cup-color-primary);
+  }
+  .cup-tp__preset-swatches {
+    display: flex;
+    gap: 2px;
+  }
+  .cup-tp__preset-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: var(--cup-radius-full);
+    border: 1px solid rgba(128,128,128,0.3);
+  }
+  .cup-tp__preset-name {
+    font-size: var(--cup-font-size-xs);
+    white-space: nowrap;
+  }
+  .cup-tp__colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--cup-space-xs);
+  }
+  .cup-tp__color-row {
+    display: flex;
+    align-items: center;
+    gap: var(--cup-space-xs);
+    cursor: pointer;
+  }
+  .cup-tp__swatch {
+    width: 28px;
+    height: 28px;
+    border: 1px solid var(--cup-color-border);
+    border-radius: var(--cup-radius-sm);
+    padding: 0;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  .cup-tp__color-label {
+    font-size: var(--cup-font-size-xs);
+  }
+  .cup-tp__actions {
+    display: flex;
+    gap: var(--cup-space-xs);
+    flex-wrap: wrap;
+  }
+  .cup-tp__btn {
+    flex: 1;
+    min-width: 0;
+    padding: var(--cup-space-xs) var(--cup-space-sm);
+    font-size: var(--cup-font-size-xs);
+    font-family: inherit;
+    border: 1px solid var(--cup-color-border);
+    border-radius: var(--cup-radius-sm);
+    background: var(--cup-color-surface-alt);
+    color: var(--cup-color-on-surface);
+    cursor: pointer;
+    transition: background var(--cup-transition-fast);
+    white-space: nowrap;
+  }
+  .cup-tp__btn:hover {
+    background: var(--cup-color-primary);
+    color: var(--cup-color-on-primary);
+    border-color: var(--cup-color-primary);
   }
 }
