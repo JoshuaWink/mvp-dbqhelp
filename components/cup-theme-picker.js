@@ -142,14 +142,8 @@ class CupThemePicker extends CupElement {
   }
 
   render() {
-    // Only build the trigger — panel is built on first open
-    if (!this.querySelector('.cup-theme-picker__trigger')) {
-      this.innerHTML = '<span class="cup-theme-picker__trigger" role="button" tabindex="0" aria-label="Open theme editor" title="Open theme editor">&#9881;</span>';
-      this.querySelector('.cup-theme-picker__trigger').addEventListener('click', () => this.toggle());
-      this.querySelector('.cup-theme-picker__trigger').addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); this.toggle(); }
-      });
-    }
+    // No visible trigger — picker is opened programmatically by cup-powered-by.
+    // Element stays hidden until open() is called.
   }
 
   toggle() {

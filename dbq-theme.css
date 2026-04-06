@@ -67,7 +67,7 @@
 
 /* ── Header ── */
 .dbq-header {
-  background: #ffffff;
+  background: var(--cup-color-surface);
   border-bottom: 1px solid var(--cup-color-border);
   position: sticky;
   top: 0;
@@ -136,7 +136,7 @@
 
 /* ── Hero ── */
 .dbq-hero {
-  background: linear-gradient(135deg, var(--dbq-color-hero-bg) 0%, #2d6a4f 100%);
+  background: linear-gradient(135deg, var(--dbq-color-hero-bg) 0%, var(--cup-color-primary) 100%);
   color: var(--dbq-color-hero-text);
   padding: var(--cup-space-2xl) var(--cup-space-lg);
   text-align: center;
@@ -166,7 +166,7 @@
 
 /* ── Page Hero (subpages) ── */
 .dbq-page-hero {
-  background: linear-gradient(135deg, var(--dbq-color-hero-bg) 0%, #2d6a4f 100%);
+  background: linear-gradient(135deg, var(--dbq-color-hero-bg) 0%, var(--cup-color-primary) 100%);
   color: var(--dbq-color-hero-text);
   padding: var(--cup-space-xl) var(--cup-space-lg);
   text-align: center;
@@ -195,15 +195,15 @@
   border: 2px solid transparent;
 }
 .dbq-btn--primary {
-  background: #ffffff;
+  background: var(--cup-color-surface);
   color: var(--dbq-color-dark);
 }
 .dbq-btn--primary:hover {
-  background: #f0f7f4;
+  background: var(--cup-color-surface-alt);
 }
 .dbq-btn--secondary {
   background: transparent;
-  color: #ffffff;
+  color: var(--cup-color-on-primary);
   border-color: rgba(255,255,255,0.6);
 }
 .dbq-btn--secondary:hover {
@@ -299,7 +299,7 @@
   transition: box-shadow var(--cup-transition-normal);
 }
 .dbq-card:hover {
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  box-shadow: var(--cup-shadow-md);
 }
 .dbq-card__icon {
   width: 48px;
@@ -395,8 +395,8 @@
 
 /* ── CTA Strip ── */
 .dbq-cta {
-  background: linear-gradient(135deg, var(--dbq-color-cta-bg) 0%, #1b4332 100%);
-  color: #ffffff;
+  background: linear-gradient(135deg, var(--dbq-color-cta-bg) 0%, var(--dbq-color-dark) 100%);
+  color: var(--cup-color-on-primary);
   padding: var(--cup-space-2xl) var(--cup-space-lg);
   text-align: center;
 }
@@ -467,7 +467,7 @@
 .dbq-contact-item__icon svg {
   width: 20px;
   height: 20px;
-  color: #ffffff;
+  color: var(--cup-color-on-primary);
 }
 .dbq-contact-item strong {
   color: var(--cup-color-primary);
@@ -531,7 +531,7 @@
 .dbq-footer h3 {
   font-weight: var(--cup-font-weight-bold);
   margin-bottom: var(--cup-space-md);
-  color: #ffffff;
+  color: var(--cup-color-on-primary);
 }
 .dbq-footer__inner p {
   font-size: var(--cup-font-size-sm);
@@ -550,7 +550,7 @@
   font-size: var(--cup-font-size-sm);
 }
 .dbq-footer a:hover {
-  color: #ffffff;
+  color: var(--cup-color-on-primary);
 }
 /* Keep powered-by link inline so "An Orchestrate Solution" stays on one line */
 .dbq-footer .cup-powered-by__link {
@@ -618,11 +618,11 @@ cup-checkbox {
     top: 100%;
     left: 0;
     right: 0;
-    background: #ffffff;
+    background: var(--cup-color-surface);
     flex-direction: column;
     padding: var(--cup-space-md);
     border-bottom: 1px solid var(--cup-color-border);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: var(--cup-shadow-md);
   }
   .dbq-header__nav[data-open] {
     display: flex;
