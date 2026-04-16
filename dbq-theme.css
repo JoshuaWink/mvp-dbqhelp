@@ -665,7 +665,7 @@ cup-checkbox {
   .dbq-footer { background: none; color: #000; border-top: 1px solid #ccc; }
 }
 
-/* ── Section Images — deferred with skeleton placeholder ── */
+/* ── Section Images — deferred with cup-skeleton placeholder ── */
 .dbq-section-img-wrap {
   width: 100%;
   max-width: 720px;
@@ -673,15 +673,13 @@ cup-checkbox {
   margin: var(--cup-space-lg, 1.5rem) auto;
   border-radius: var(--cup-radius-lg, 12px);
   overflow: hidden;
-  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
-  background-size: 200% 100%;
-  animation: dbq-shimmer 1.5s ease-in-out infinite;
   position: relative;
 }
 
-@keyframes dbq-shimmer {
-  0%   { background-position: 200% 0; }
-  100% { background-position: -200% 0; }
+.dbq-section-img-wrap cup-skeleton {
+  position: absolute;
+  inset: 0;
+  transition: opacity 0.4s ease;
 }
 
 .dbq-section-img-wrap .dbq-section-img {
@@ -697,10 +695,9 @@ cup-checkbox {
   opacity: 0.9;
 }
 
-/* Stop shimmer once image loads */
-.dbq-section-img-wrap:has(.loaded) {
-  animation: none;
-  background: transparent;
+.dbq-section-img-wrap .dbq-section-img.loaded ~ cup-skeleton {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .dbq-prose .dbq-section-img-wrap {
