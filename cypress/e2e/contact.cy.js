@@ -67,6 +67,17 @@ describe('Contact page', () => {
   });
 
   // ── Form validation ──
+  it('shows consent error when checkbox not checked', () => {
+    cy.get('cup-checkbox[name="consent"]').then(($el) => {
+      $el[0].setAttribute('error', 'Consent is required');
+    });
+    cy.get('cup-checkbox[name="consent"] .cup-error')
+      .should('exist')
+      .and('contain.text', 'Consent is required')
+      .and('have.attr', 'role', 'alert');
+    cy.get('cup-checkbox[name="consent"]').should('have.attr', 'data-state', 'error');
+  });
+
   it('shows validation errors on empty submit', () => {
     // Attempt submit without filling anything — form should NOT navigate away
     cy.get('#contact-form').then(($form) => {

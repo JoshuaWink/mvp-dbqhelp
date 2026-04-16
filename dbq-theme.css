@@ -704,6 +704,13 @@ cup-checkbox {
   margin-top: var(--cup-space-xl, 2rem);
 }
 
+/* ── Field error message (checkbox fallback) ── */
+.dbq-field-error {
+  color: var(--cup-color-error, #f44336);
+  font-size: var(--cup-font-size-sm, 0.875rem);
+  margin-top: var(--cup-space-xs, 0.25rem);
+}
+
 /* Screen reader only */
 .sr-only {
   position: absolute;
