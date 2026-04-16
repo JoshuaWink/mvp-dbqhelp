@@ -664,3 +664,16 @@ cup-checkbox {
   .dbq-hero { background: none; color: #000; }
   .dbq-footer { background: none; color: #000; border-top: 1px solid #ccc; }
 }
+
+/* Screen reader only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
