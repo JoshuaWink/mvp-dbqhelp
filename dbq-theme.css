@@ -665,6 +665,22 @@ cup-checkbox {
   .dbq-footer { background: none; color: #000; border-top: 1px solid #ccc; }
 }
 
+/* ── Section Images ── */
+.dbq-section-img {
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  border-radius: var(--cup-radius-lg, 12px);
+  margin: var(--cup-space-lg, 1.5rem) auto;
+  display: block;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+.dbq-prose .dbq-section-img {
+  margin-top: var(--cup-space-xl, 2rem);
+}
+
 /* Screen reader only */
 .sr-only {
   position: absolute;
