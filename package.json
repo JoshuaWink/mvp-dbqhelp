@@ -1,0 +1,27 @@
+{
+  "name": "mvp-dbqhelp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cup-element.js",
+  "scripts": {
+    "serve": "npx http-server . -p 8080 -s",
+    "test": "npx cypress run",
+    "test:open": "npx cypress open",
+    "test:ci": "npx http-server . -p 8080 -s & sleep 2 && npx cypress run; kill %1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshuaWink/mvp-dbqhelp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JoshuaWink/mvp-dbqhelp/issues"
+  },
+  "homepage": "https://github.com/JoshuaWink/mvp-dbqhelp#readme",
+  "devDependencies": {
+    "cypress": "^15.14.0"
+  }
+}
