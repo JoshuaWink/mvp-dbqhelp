@@ -1,1 +1,121 @@
-function a0_0x1075(){var _0x1f4d0c=['zM9YrwfJAa','rMLYC3qGBMfTzsbPCYbYzxf1AxjLza','ugXLyxnLihnLBgvJDcbHihnLCNzPy2u','ntaWDevhCePX','mxDSAwjyvG','tgfZDcbUyw1LigLZihjLCxvPCMvK','yxjPys1LEhbHBMrLza','zMfSC2u','C2XWwfa','DMfSDwu','w25HBwu9iG','zhvlCLG','mta3oteWu21cBfbw','Aw5JBhvKzxm','zMveC3K','yMXVy2S','BwvZC2fNzq','zgf0ys1VCgvU','ChvZAa','AgfZqxr0CMLIDxrL','rNHNqM4','y2HLy2TLza','y3vWlwzPzwXKlcbJDxaTC2vSzwn0lcbJDxaTDgv4DgfYzweSign1Cc1JAgvJA2jVEa','zw1HAwW','ugXLyxnLigvUDgvYigeGDMfSAwqGzw1HAwW','zgLZCgXHEq','mtaYntyWnfDfDuTPBq','otuWmteWsMjmBeHw','y29UC2vUDa','ywrKrxzLBNrmAxn0zw5LCG','y3vWlwzPzwXKw25HBwu9iG','mtq1nZe1nKrQEuXgvW','C2v0qxr0CMLIDxrL','z2v0rwXLBwvUDej5swq','t1vSDNi','zxjYB3i','Dgv4DgfYzwe','BM9Uzq','odiZmJr3t0PvBwq','B0Trq1e','y2XPy2S','ndy5sezMvvrX','DhjPBq','Aw5WDxq','mZu4ndi2mhjsrxPuuG','ugXLyxnLigfJA25VD2XLzgDLihrOAxmGzgLZy2XHAw1LCG','BwvUDs10B2DNBgu','svzpzxG','C2vYDMLJzq','C3vIBwL0','D0XOq3q','BgfZDe5HBwu','rw1HAwWGywrKCMvZCYbPCYbYzxf1AxjLza','CMvTB3zLqxr0CMLIDxrL','nLLtyu5pAa','nda1mdrhuKzyrxi','CxvLCNLtzwXLy3rVCG','D0nWve4'];a0_0x1075=function(){return _0x1f4d0c;};return a0_0x1075();}function a0_0x116b(_0x134709,_0x1c0853){_0x134709=_0x134709-(0x133e+0x816+0x3*-0x881);var _0x370351=a0_0x1075();var _0x377bef=_0x370351[_0x134709];if(a0_0x116b['gtegFd']===undefined){var _0x45d6ac=function(_0x808402){var _0x367520='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var _0x219e7c='',_0x2d7188='';for(var _0x14eab9=0x14a3+0x267b+-0x3b1e,_0x4880c6,_0xaf7c72,_0x19a34a=0xe78+0x8*0x1de+0xeb4*-0x2;_0xaf7c72=_0x808402['charAt'](_0x19a34a++);~_0xaf7c72&&(_0x4880c6=_0x14eab9%(0x1*-0x20a1+-0x13bc+0x3461)?_0x4880c6*(-0x21*0x69+0xaac+-0x1*-0x31d)+_0xaf7c72:_0xaf7c72,_0x14eab9++%(0x1623+0x1*0x63f+-0x1c5e))?_0x219e7c+=String['fromCharCode'](0x473+0x1d94+-0x4*0x842&_0x4880c6>>(-(0x5*-0x36a+0x151*-0x17+0x1b*0x1c1)*_0x14eab9&0x236a+-0xbc6+0x179e*-0x1)):-0x106c+0x8c3+0x7a9){_0xaf7c72=_0x367520['indexOf'](_0xaf7c72);}for(var _0x4e423e=0x2531+0x128c+-0x37bd,_0x4b5b88=_0x219e7c['length'];_0x4e423e<_0x4b5b88;_0x4e423e++){_0x2d7188+='%'+('00'+_0x219e7c['charCodeAt'](_0x4e423e)['toString'](-0x198b+0x1*-0xa3a+0x23d5))['slice'](-(0x158a+-0x18c5*-0x1+-0x2e4d));}return decodeURIComponent(_0x2d7188);};a0_0x116b['GnOSJR']=_0x45d6ac,a0_0x116b['hbBurz']={},a0_0x116b['gtegFd']=!![];}var _0x139bbd=_0x370351[-0xad+-0x33+-0x4*-0x38],_0x14fccd=_0x134709+_0x139bbd,_0x95f00a=a0_0x116b['hbBurz'][_0x14fccd];return!_0x95f00a?(_0x377bef=a0_0x116b['GnOSJR'](_0x377bef),a0_0x116b['hbBurz'][_0x14fccd]=_0x377bef):_0x377bef=_0x95f00a,_0x377bef;}(function(_0x3ddacf,_0x10f590){var _0x10e9d7=a0_0x116b,_0xd65871=_0x3ddacf();while(!![]){try{var _0x42668d=parseInt(_0x10e9d7(0x1ec))/(0x1*0x75b+-0x161*0x16+-0x2*-0xb7e)*(parseInt(_0x10e9d7(0x203))/(0x23d6+-0x4fc+-0x1ed8))+parseInt(_0x10e9d7(0x202))/(-0x10b+-0x243+-0x351*-0x1)+parseInt(_0x10e9d7(0x207))/(-0x1dc6+0x1*-0x8bf+0x2689)+parseInt(_0x10e9d7(0x1da))/(-0x248d+-0x408*-0x9+0x4a*0x1)*(-parseInt(_0x10e9d7(0x1e4))/(-0x1*0x2a5+0x16d*-0x1+0x418))+-parseInt(_0x10e9d7(0x1d7))/(0x115*-0x7+0x1*-0xd09+-0x6e1*-0x3)*(-parseInt(_0x10e9d7(0x1e5))/(0x1*0x1d9+0x6*0x344+0x1*-0x1569))+-parseInt(_0x10e9d7(0x1f4))/(0x1*-0x366+-0x94b*0x2+0x1605)+parseInt(_0x10e9d7(0x1eb))/(0x8b7+-0x1423+0x3d2*0x3)*(-parseInt(_0x10e9d7(0x1d4))/(0xb02*-0x1+-0x1*0x92f+0x143c));if(_0x42668d===_0x10f590)break;else _0xd65871['push'](_0xd65871['shift']());}catch(_0x2ad82d){_0xd65871['push'](_0xd65871['shift']());}}}(a0_0x1075,-0x9b4c2+-0x1*-0x6c35f+-0x4a7e9*-0x2),(function(){'use strict';var _0x1dbaaa=a0_0x116b,_0xd08a8c={'HIqyV':_0x1dbaaa(0x1f9),'feDsy':_0x1dbaaa(0x1e1),'fnQPc':function(_0x2d1550,_0x5c44cc){return _0x2d1550(_0x5c44cc);},'oKQCQ':function(_0x5d2691,_0x4c6c12){return _0x5d2691(_0x4c6c12);},'duKrX':_0x1dbaaa(0x204),'wCpTN':function(_0x104551){return _0x104551();},'slpXP':_0x1dbaaa(0x1d9),'LXkuW':function(_0x4ea236,_0x156798){return _0x4ea236+_0x156798;},'sXKSY':'cup-select[name=\x22','IVOex':function(_0x496237,_0x1ffd75){return _0x496237+_0x1ffd75;},'OUlvr':_0x1dbaaa(0x1dc),'wLhCt':_0x1dbaaa(0x1d6),'FxgBn':'form-success'};var _0x9868de=document['getElementById'](_0xd08a8c[_0x1dbaaa(0x20a)]),_0x5aa3f2=document[_0x1dbaaa(0x209)]('main-nav');_0x9868de&&_0x5aa3f2&&_0x9868de[_0x1dbaaa(0x205)](_0xd08a8c[_0x1dbaaa(0x1e0)],function(){var _0x232cb7=_0x1dbaaa,_0x3bcea9=_0x5aa3f2[_0x232cb7(0x1fb)]('data-open');_0x3bcea9?(_0x5aa3f2[_0x232cb7(0x1e3)](_0xd08a8c['HIqyV']),_0x9868de[_0x232cb7(0x208)](_0x232cb7(0x1ee),_0x232cb7(0x1ef))):(_0x5aa3f2[_0x232cb7(0x208)]('data-open',''),_0x9868de[_0x232cb7(0x208)](_0x232cb7(0x1ee),'true'));});var _0x4ec901=document['getElementById']('contact-form'),_0x1ce7fa=document['getElementById'](_0xd08a8c[_0x1dbaaa(0x1fc)]);_0x4ec901&&_0x1ce7fa&&_0x4ec901[_0x1dbaaa(0x205)](_0x1dbaaa(0x1df),function(_0x32078b){var _0x517276=_0x1dbaaa,_0x2f42e6='2|4|0|1|6|7|11|8|5|3|9|10'['split']('|'),_0x48ae7e=-0x7*0x4b8+0x3c5+0x1d43;while(!![]){switch(_0x2f42e6[_0x48ae7e++]){case'0':var _0x5b3b86=[];continue;case'1':if(!_0x48ce3c['firstName'])_0x5b3b86[_0x517276(0x1fa)]({'name':'firstName','msg':_0x517276(0x1e9)});continue;case'2':_0x32078b['preventDefault']();continue;case'3':if(_0x5b3b86['length']>-0x3*-0x67d+-0x202f+-0x58*-0x25){_0x5b3b86[_0x517276(0x1e8)](function(_0x364fb1){_0x2ff9cc(_0x364fb1['name'],_0x364fb1['msg']);});return;}continue;case'4':var _0x48ce3c={'firstName':_0x9aa7c4('firstName'),'lastName':_0x9aa7c4(_0xd08a8c[_0x517276(0x1f6)]),'email':_0xd08a8c['fnQPc'](_0x9aa7c4,'email'),'phone':_0x9aa7c4('phone'),'service':_0xd08a8c[_0x517276(0x1d5)](_0x3274a7,_0x517276(0x1de)),'message':_0x46a427(_0x517276(0x1f8)),'consent':_0x56cc6f(_0xd08a8c[_0x517276(0x1f3)])};continue;case'5':_0xd08a8c[_0x517276(0x1e7)](_0x26902e);continue;case'6':if(!_0x48ce3c['lastName'])_0x5b3b86['push']({'name':'lastName','msg':_0x517276(0x1ed)});continue;case'7':if(!_0x48ce3c[_0x517276(0x1ff)])_0x5b3b86[_0x517276(0x1fa)]({'name':_0x517276(0x1ff),'msg':_0x517276(0x1e2)});else{if(!_0x48ce3c['email'][_0x517276(0x1f5)]('@'))_0x5b3b86[_0x517276(0x1fa)]({'name':'email','msg':_0x517276(0x200)});}continue;case'8':if(!_0x48ce3c[_0x517276(0x204)])_0x5b3b86['push']({'name':_0x517276(0x204),'msg':_0x517276(0x1db)});continue;case'9':_0x4ec901['style'][_0x517276(0x201)]=_0x517276(0x1d3);continue;case'10':_0x1ce7fa['style']['display']=_0x517276(0x1f7);continue;case'11':if(!_0x48ce3c[_0x517276(0x1de)])_0x5b3b86[_0x517276(0x1fa)]({'name':'service','msg':_0x517276(0x1ea)});continue;}break;}});function _0x9aa7c4(_0x25183a){var _0x5279da=_0x1dbaaa,_0x17985d=_0x4ec901['querySelector'](_0x5279da(0x206)+_0x25183a+'\x22]');if(!_0x17985d)return'';var _0x13c72e=_0x17985d[_0x5279da(0x1e6)](_0xd08a8c[_0x5279da(0x1f0)]);return _0x13c72e?_0x13c72e[_0x5279da(0x1f1)][_0x5279da(0x1d8)]():'';}function _0x3274a7(_0x3181f8){var _0xd7ccec=_0x1dbaaa,_0x11639d=_0x4ec901[_0xd7ccec(0x1e6)](_0xd08a8c['LXkuW'](_0xd08a8c['sXKSY']+_0x3181f8,'\x22]'));if(!_0x11639d)return'';var _0x4a1f64=_0x11639d['querySelector']('select');return _0x4a1f64?_0x4a1f64['value']:'';}function _0x46a427(_0x80e420){var _0x381fa5=_0x1dbaaa,_0x4711fe=_0x4ec901[_0x381fa5(0x1e6)]('cup-textarea[name=\x22'+_0x80e420+'\x22]');if(!_0x4711fe)return'';var _0x261475=_0x4711fe[_0x381fa5(0x1e6)](_0x381fa5(0x1d2));return _0x261475?_0x261475['value']['trim']():'';}function _0x56cc6f(_0x1efdc2){var _0x4e439e=_0x1dbaaa,_0x5d567a=_0x4ec901['querySelector']('cup-checkbox[name=\x22'+_0x1efdc2+'\x22]');if(!_0x5d567a)return![];var _0xea6639=_0x5d567a[_0x4e439e(0x1e6)]('input[type=\x22checkbox\x22]');return _0xea6639?_0xea6639[_0x4e439e(0x1fd)]:![];}function _0x2ff9cc(_0x4972be,_0x5e5b89){var _0x13a4e4=_0x1dbaaa,_0x55bd76=_0x4ec901[_0x13a4e4(0x1e6)](_0xd08a8c[_0x13a4e4(0x1dd)](_0x13a4e4(0x1f2)+_0x4972be,'\x22]'));_0x55bd76&&_0x55bd76[_0x13a4e4(0x208)]&&_0x55bd76[_0x13a4e4(0x208)](_0x13a4e4(0x1d1),_0x5e5b89);}function _0x26902e(){var _0x4c0235=_0x1dbaaa,_0x1e6505=_0x4ec901['querySelectorAll'](_0x4c0235(0x1fe));_0x1e6505[_0x4c0235(0x1e8)](function(_0x5a56b2){var _0x5483ac=_0x4c0235;_0x5a56b2[_0x5483ac(0x1e3)]('error');});}}()));
+(function () {
+  'use strict';
+
+  /* ── Mobile menu toggle ── */
+  var menuBtn = document.getElementById('menu-toggle');
+  var nav = document.getElementById('main-nav');
+  if (menuBtn && nav) {
+    menuBtn.addEventListener('click', function () {
+      var isOpen = nav.hasAttribute('data-open');
+      if (isOpen) {
+        nav.removeAttribute('data-open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+      } else {
+        nav.setAttribute('data-open', '');
+        menuBtn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  }
+
+  /* ── Contact form ── */
+  var form = document.getElementById('contact-form');
+  var successBox = document.getElementById('form-success');
+  if (!form || !successBox) return;
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    clearErrors();
+
+    var data = {
+      firstName: fieldVal('firstName'),
+      lastName:  fieldVal('lastName'),
+      email:     fieldVal('email'),
+      phone:     fieldVal('phone'),
+      service:   selectVal('service'),
+      message:   textareaVal('message'),
+      consent:   checkboxVal('consent')
+    };
+
+    var errs = [];
+    if (!data.firstName) errs.push({ n: 'firstName', m: 'First name is required' });
+    if (!data.lastName)  errs.push({ n: 'lastName',  m: 'Last name is required' });
+    if (!data.email)     errs.push({ n: 'email',     m: 'Email is required' });
+    else if (!data.email.includes('@')) errs.push({ n: 'email', m: 'Please enter a valid email' });
+    if (!data.service)   errs.push({ n: 'service',   m: 'Please select a service' });
+    if (!data.consent)   errs.push({ n: 'consent',   m: 'Consent is required' });
+
+    if (errs.length) {
+      errs.forEach(function (err) { setError(err.n, err.m); });
+      return;
+    }
+
+    /* ── Submit to FormSubmit ── */
+    var fd = new FormData();
+    fd.append('_subject', 'New Contact Form Submission — DBQ Help');
+    fd.append('_cc', 'kay@dbqhelp.com');
+    fd.append('_template', 'table');
+    fd.append('_captcha', 'false');
+    fd.append('First Name', data.firstName);
+    fd.append('Last Name', data.lastName);
+    fd.append('Email', data.email);
+    fd.append('Phone', data.phone || 'Not provided');
+    fd.append('Service Needed', data.service);
+    fd.append('Message', data.message || 'No message');
+
+    var submitBtn = form.querySelector('cup-button[type="submit"]');
+    if (submitBtn) submitBtn.setAttribute('disabled', '');
+
+    fetch('https://formsubmit.co/ajax/info@dbqhelp.com', {
+      method: 'POST',
+      headers: { 'Accept': 'application/json' },
+      body: fd
+    })
+    .then(function (r) { return r.json(); })
+    .then(function (res) {
+      if (res.success) {
+        form.style.display = 'none';
+        successBox.style.display = 'block';
+      } else {
+        alert('Something went wrong. Please call us at 916-202-0558.');
+        if (submitBtn) submitBtn.removeAttribute('disabled');
+      }
+    })
+    .catch(function () {
+      alert('Could not send message. Please call us at 916-202-0558.');
+      if (submitBtn) submitBtn.removeAttribute('disabled');
+    });
+  });
+
+  function fieldVal(name) {
+    var el = form.querySelector('cup-field[name="' + name + '"]');
+    if (!el) return '';
+    var input = el.querySelector('input');
+    return input ? input.value.trim() : '';
+  }
+  function selectVal(name) {
+    var el = form.querySelector('cup-select[name="' + name + '"]');
+    if (!el) return '';
+    var sel = el.querySelector('select');
+    return sel ? sel.value : '';
+  }
+  function textareaVal(name) {
+    var el = form.querySelector('cup-textarea[name="' + name + '"]');
+    if (!el) return '';
+    var ta = el.querySelector('textarea');
+    return ta ? ta.value.trim() : '';
+  }
+  function checkboxVal(name) {
+    var el = form.querySelector('cup-checkbox[name="' + name + '"]');
+    if (!el) return false;
+    var cb = el.querySelector('input[type="checkbox"]');
+    return cb ? cb.checked : false;
+  }
+  function setError(name, msg) {
+    var el = form.querySelector('[name="' + name + '"]');
+    if (el) el.setAttribute('error', msg);
+  }
+  function clearErrors() {
+    form.querySelectorAll('cup-field,cup-select,cup-textarea,cup-checkbox')
+      .forEach(function (el) { el.removeAttribute('error'); });
+  }
+})();
