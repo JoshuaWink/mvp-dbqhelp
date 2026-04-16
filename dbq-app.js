@@ -111,11 +111,11 @@
     return cb ? cb.checked : false;
   }
   function setError(name, msg) {
-    var el = form.querySelector('[name="' + name + '"]');
+    var el = form.querySelector('cup-field[name="' + name + '"], cup-select[name="' + name + '"], cup-textarea[name="' + name + '"], cup-checkbox[name="' + name + '"]');
     if (el) el.setAttribute('error', msg);
   }
   function clearErrors() {
-    form.querySelectorAll('cup-field,cup-select,cup-textarea,cup-checkbox')
+    form.querySelectorAll('cup-field[error],cup-select[error],cup-textarea[error],cup-checkbox[error]')
       .forEach(function (el) { el.removeAttribute('error'); });
   }
 })();
