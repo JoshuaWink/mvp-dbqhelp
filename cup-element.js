@@ -1,1 +1,182 @@
-function a0_0x2be5(){const _0x2e4848=['B25bDhrYAwj1DgvdAgfUz2u','ls1JDxaTzM9UDc1ZAxPLlwXN','ls1JDxaTy29SB3iTD2fYBMLUzW','mZiZnte2neLdDfHLzq','zMLSDgvY','ls1JDxaTC2HHzg93lxnT','y29UC3rYDwn0B3i','ls1JDxaTy29SB3iTzM9JDxm','DhjPBq','ls1JDxaTy29SB3iTC3vYzMfJzs1HBhq','Bwf4lxDPzhrO','zM9UDc1Myw1PBhK','ls1JDxaTC3bHy2uTmNHZ','x2n1CeLK','ntG5mdiZnuHsugreDW','ls1JDxaTC3bHy2uTBwq','yxr0CG','BwLUlwHLAwDODa','zM9UDc13zwLNAhq','x3jLBMrLCLnJAgvKDwXLza','CgfKzgLUzW','ls1JDxaTy29SB3iTB24TzxjYB3i','yxr0CMLIDxrLq2HHBMDLzenHBgXIywnR','mZaZmta4ng52D0zRzW','ls1JDxaTDhjHBNnPDgLVBI1ZBg93','B2jZzxj2zwrbDhrYAwj1DgvZ','ls1JDxaTCMfKAxvZlw1K','AM9PBG','BgLUzs1OzwLNAhq','AgfZqxr0CMLIDxrL','DxnLsg9VAW','ls1JDxaTy29SB3iTzxjYB3i','zgvZy3jPyMvKqNK','z2v0','zgLZCgXHEq','z2v0uhjVCgvYDhLwywX1zq','ogztwuTwBW','B3bHy2L0Eq','ls1JDxaTC2HHzg93lwXN','yM9YzgvYlxjHzgL1CW','ls1JDxaTy29SB3iTChjPBwfYEq','mJq3nJe2mvnRAvvqCq','yw5PBwf0Aw9U','D2LKDgG','y29UBMvJDgvKq2fSBgjHy2S','zM9UDc1ZAxPL','ANbRswm','y3vWswq','B25dB25Uzwn0','ls1JDxaTDhjHBNnPDgLVBI1Myxn0','x2HVB2TZ','AxndB25Uzwn0zwq','BwfYz2LU','nde1ndmWneH2rMjWqq','x2nVBxb1DgvK','Dg9eAwn0','ls1JDxaTCMfKAxvZlwz1BgW','BgvUz3rO','zgLZy29UBMvJDgvKq2fSBgjHy2S','mJi4nJm5mK9Ky2PzDq','y2XHC3nmAxn0','y3vWlq','z2fW','ls1JDxaTy29SB3iTC3vYzMfJzq','zNjLzxPL','CMvUzgvY','z2v0qxr0CMLIDxrL','mtiWuhvLuNPv','Dg9Rzw5Z','ls1JDxaTzM9UDc1ZAxPLlxHS','x3rVA2vUCW','yM9VBa','C2HHzg93','ls1JDxaTC3bHy2uTEgW','oda5ote0uMTIAK5n','ls1JDxaTy29SB3iTyM9YzgvY','y2fWDhvYzq','ls1JDxaTzM9UDc1ZAxPLlwjHC2u','neTbzurhAq','ChvZAa','ywz0zxjszw5Kzxi'];a0_0x2be5=function(){return _0x2e4848;};return a0_0x2be5();}const a0_0x573b10=a0_0x1081;(function(_0x23c028,_0xd3b150){const _0x6fd021=a0_0x1081,_0x412127=_0x23c028();while(!![]){try{const _0x3e93ca=parseInt(_0x6fd021(0xdc))/(0x19e5+0x72*0x33+0x184d*-0x2)+parseInt(_0x6fd021(0xcd))/(0x1803+0x43*-0x8d+-0xfe*-0xd)+-parseInt(_0x6fd021(0xe6))/(0xc7f*0x2+0xf01+0x13fe*-0x2)*(-parseInt(_0x6fd021(0xe0))/(0x2*0xb0+0x12e3*0x1+0x143f*-0x1))+parseInt(_0x6fd021(0xf1))/(0x226b+0x24cd+0xb*-0x679)+-parseInt(_0x6fd021(0xc7))/(0xc75+0xdf*-0x7+-0x656)+parseInt(_0x6fd021(0xfa))/(0x212f*-0x1+0x1*0xae3+0x1653)*(parseInt(_0x6fd021(0xb6))/(-0x48b+-0x1cc9+0x215c))+-parseInt(_0x6fd021(0xbb))/(-0x1b6b+0x2662+-0xaee*0x1)*(parseInt(_0x6fd021(0xd5))/(0x1c6+-0x2*-0x3c6+0x9*-0x108));if(_0x3e93ca===_0xd3b150)break;else _0x412127['push'](_0x412127['shift']());}catch(_0x203aca){_0x412127['push'](_0x412127['shift']());}}}(a0_0x2be5,0x108487+-0x5a0d5+0x32cd*-0x5));function a0_0x1081(_0x2c6bc3,_0x4fced8){_0x2c6bc3=_0x2c6bc3-(0x1cc5+-0xc38+-0x1c*0x91);const _0x31bcb8=a0_0x2be5();let _0x37a9cc=_0x31bcb8[_0x2c6bc3];if(a0_0x1081['jeLHmM']===undefined){var _0x3a942c=function(_0x1c95ab){const _0xfeb941='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x1ac0fb='',_0x122ec0='';for(let _0x1d305c=0x1*0x21ad+-0x131*-0x1+-0x22de,_0x54e098,_0x436d4b,_0x1c988e=-0x4*-0x31+0x640*0x6+-0x2644;_0x436d4b=_0x1c95ab['charAt'](_0x1c988e++);~_0x436d4b&&(_0x54e098=_0x1d305c%(0x812+-0x2242+0x1a34)?_0x54e098*(0x60a+0x7e0+-0x6*0x247)+_0x436d4b:_0x436d4b,_0x1d305c++%(-0x20fb+0xa75*0x1+0x168a))?_0x1ac0fb+=String['fromCharCode'](0x1d0c+-0x4ad+-0x1760&_0x54e098>>(-(-0xab5+0x3*0x592+-0x5ff)*_0x1d305c&-0x3*0xae1+0x1*0x189b+0x1*0x80e)):0x1*-0x26fb+0x1007*0x1+0xb7a*0x2){_0x436d4b=_0xfeb941['indexOf'](_0x436d4b);}for(let _0x130ae3=0x2248*-0x1+-0xeae+0x6*0x829,_0x59147a=_0x1ac0fb['length'];_0x130ae3<_0x59147a;_0x130ae3++){_0x122ec0+='%'+('00'+_0x1ac0fb['charCodeAt'](_0x130ae3)['toString'](-0x1ef8+-0x65e+0x2566))['slice'](-(0xc8a+-0x235d+0x16d5));}return decodeURIComponent(_0x122ec0);};a0_0x1081['fmECgk']=_0x3a942c,a0_0x1081['VVtXFy']={},a0_0x1081['jeLHmM']=!![];}const _0x43b9f6=_0x31bcb8[-0x20a0+-0x4*-0x16e+0x1ae8],_0x4119dc=_0x2c6bc3+_0x43b9f6,_0x505a59=a0_0x1081['VVtXFy'][_0x4119dc];return!_0x505a59?(_0x37a9cc=a0_0x1081['fmECgk'](_0x37a9cc),a0_0x1081['VVtXFy'][_0x4119dc]=_0x37a9cc):_0x37a9cc=_0x505a59,_0x37a9cc;}let cupIdCounter=-0x90d+-0x29d*0x4+0x1381;const CSS_TOKENS=[a0_0x573b10(0xd1),'--cup-color-on-surface',a0_0x573b10(0xec),a0_0x573b10(0xba),'--cup-color-on-primary','--cup-color-secondary',a0_0x573b10(0xb1),a0_0x573b10(0xf8),'--cup-color-success',a0_0x573b10(0xe5),'--cup-color-info',a0_0x573b10(0xdd),a0_0x573b10(0xea),'--cup-color-disabled','--cup-color-on-disabled','--cup-color-placeholder',a0_0x573b10(0xef),'--cup-space-xs','--cup-space-sm',a0_0x573b10(0xf2),'--cup-space-lg',a0_0x573b10(0xdb),'--cup-space-2xl','--cup-font-size-xs','--cup-font-size-sm',a0_0x573b10(0xdf),a0_0x573b10(0xe4),a0_0x573b10(0xd7),'--cup-font-size-2xl','--cup-radius-sm',a0_0x573b10(0xfd),'--cup-radius-lg',a0_0x573b10(0xca),a0_0x573b10(0xc3),'--cup-transition-normal',a0_0x573b10(0xfb),a0_0x573b10(0xe8),'--cup-shadow-md',a0_0x573b10(0xb8)],CSS_VISUAL=[a0_0x573b10(0xb4),'position',a0_0x573b10(0xbd),'height',a0_0x573b10(0xf4),a0_0x573b10(0xed),a0_0x573b10(0xf7),a0_0x573b10(0xc6),a0_0x573b10(0xd0),'color','background-color','border',a0_0x573b10(0xb9),'box-shadow',a0_0x573b10(0xbf),a0_0x573b10(0xf5),a0_0x573b10(0xff),a0_0x573b10(0xee),'transition',a0_0x573b10(0xbc),a0_0x573b10(0xb7),'cursor'];export class CssState{constructor(_0x360174,_0x1ebdd8){const _0x442b62=a0_0x573b10;this['_tokens']=Object[_0x442b62(0xd2)]({..._0x360174}),this[_0x442b62(0xc8)]=Object['freeze']({..._0x1ebdd8}),Object[_0x442b62(0xd2)](this);}[a0_0x573b10(0xb3)](_0x2f62f9,_0x15e0f5=undefined){const _0x5196f3=a0_0x573b10;return this[_0x5196f3(0xd8)][_0x2f62f9]??this[_0x5196f3(0xc8)][_0x2f62f9]??_0x15e0f5;}get[a0_0x573b10(0xd6)](){const _0x68cd9a=a0_0x573b10;return this[_0x68cd9a(0xd8)];}get['computed'](){const _0x19f616=a0_0x573b10;return this[_0x19f616(0xc8)];}[a0_0x573b10(0xc9)](){const _0x7caaad=a0_0x573b10;return{'tokens':{...this[_0x7caaad(0xd8)]},'computed':{...this[_0x7caaad(0xc8)]}};}static['capture'](_0x4507e8){const _0x571d94=a0_0x573b10,_0x38fc3d={'jpkIc':function(_0x5b065f,_0x6917c1){return _0x5b065f!==_0x6917c1;}},_0x2293fe=getComputedStyle(_0x4507e8),_0x1ed3a4={};for(const _0x33d4c4 of CSS_TOKENS){const _0x3609c0=_0x2293fe[_0x571d94(0xb5)](_0x33d4c4)[_0x571d94(0xeb)]();if(_0x3609c0)_0x1ed3a4[_0x33d4c4]=_0x3609c0;}const _0x3ae62a={};for(const _0x4f7595 of CSS_VISUAL){const _0x29ee79=_0x2293fe['getPropertyValue'](_0x4f7595)[_0x571d94(0xeb)]();if(_0x29ee79&&_0x29ee79!=='none'&&_0x29ee79!=='normal'&&_0x38fc3d[_0x571d94(0xc0)](_0x29ee79,'auto'))_0x3ae62a[_0x4f7595]=_0x29ee79;}return new CssState(_0x1ed3a4,_0x3ae62a);}}export class CupElement extends HTMLElement{static get[a0_0x573b10(0xfc)](){return[];}static [a0_0x573b10(0xda)]=![];constructor(){const _0x35a094=a0_0x573b10;super(),this[_0x35a094(0xf0)]=null,this['_renderScheduled']=![],this['_hooks']=[],this['state']=null,this[_0x35a094(0xe9)][_0x35a094(0xda)]&&this['attachShadow']({'mode':'open'});}get['renderRoot'](){return this['shadowRoot']||this;}get[a0_0x573b10(0xc1)](){const _0x4005ac=a0_0x573b10;return!this['_cupId']&&(this[_0x4005ac(0xf0)]=this['id']||_0x4005ac(0xcf)+ ++cupIdCounter),this['_cupId'];}[a0_0x573b10(0x101)](_0x578adf){const _0x4a79cf=a0_0x573b10;return this['_hooks'][_0x4a79cf(0xe1)](_0x578adf),this;}[a0_0x573b10(0xbe)](){const _0x4bff50=a0_0x573b10;for(const _0x42660c of this['_hooks']){if(_0x42660c['onConnect'])_0x42660c[_0x4bff50(0xc2)](this);}this['_scheduleRender']();}[a0_0x573b10(0xcc)](){for(const _0x38cab6 of this['_hooks']){if(_0x38cab6['onDisconnect'])_0x38cab6['onDisconnect'](this);}}[a0_0x573b10(0xf9)](_0x3109d8,_0x10dc85,_0x5c7324){const _0x784204=a0_0x573b10;for(const _0x58c6f3 of this['_hooks']){if(_0x58c6f3[_0x784204(0xe3)])_0x58c6f3['onAttributeChange'](this,_0x3109d8,_0x10dc85,_0x5c7324);}this[_0x784204(0xc5)]&&this['_scheduleRender']();}['_scheduleRender'](){const _0x34dae3=a0_0x573b10;if(this['_renderScheduled'])return;this[_0x34dae3(0xf6)]=!![],queueMicrotask(()=>{const _0x31834e=_0x34dae3;this[_0x31834e(0xf6)]=![];for(const _0x4d12fa of this[_0x31834e(0xc4)]){if(_0x4d12fa['beforeRender'])_0x4d12fa['beforeRender'](this);}this[_0x31834e(0xd3)](),this['state']=CssState[_0x31834e(0xde)](this);for(const _0x119351 of this[_0x31834e(0xc4)]){if(_0x119351['afterRender'])_0x119351[_0x31834e(0xe2)](this);}});}[a0_0x573b10(0xd3)](){}[a0_0x573b10(0xf3)](_0x2290ff){const _0x1b7bc5=a0_0x573b10;return this[_0x1b7bc5(0xd4)](_0x2290ff);}[a0_0x573b10(0xd9)](_0x2e9cf6){const _0x106dcc=a0_0x573b10;return this[_0x106dcc(0x100)](_0x2e9cf6);}static[a0_0x573b10(0xce)](..._0x2df7b0){const _0x36818a=a0_0x573b10;return _0x2df7b0[_0x36818a(0xe7)](Boolean)[_0x36818a(0xfe)]('\x20');}static[a0_0x573b10(0xb2)](..._0x5ba064){const _0x484b90=a0_0x573b10,_0x431fa9=_0x5ba064[_0x484b90(0xe7)](Boolean);return _0x431fa9[_0x484b90(0xcb)]?_0x431fa9[_0x484b90(0xfe)]('\x20'):null;}}
+/* cup-core/cup-element.js — Base class for all cup/core Web Components
+ * Shared lifecycle: ID generation, render scheduling, attribute observation,
+ * lifecycle hooks (before/after render, attribute change, connect/disconnect).
+ * Shadow DOM opt-in via static shadow = true (CSS Valve).
+ * CssState — frozen CSS snapshot captured after every render.
+ * Zero dependencies. */
+
+let cupIdCounter = 0;
+
+// ── Token list — all cup custom properties to capture ─────────────
+const CSS_TOKENS = [
+  '--cup-color-surface', '--cup-color-on-surface', '--cup-color-surface-alt',
+  '--cup-color-primary', '--cup-color-on-primary', '--cup-color-secondary',
+  '--cup-color-error', '--cup-color-on-error', '--cup-color-success',
+  '--cup-color-warning', '--cup-color-info', '--cup-color-border',
+  '--cup-color-focus', '--cup-color-disabled', '--cup-color-on-disabled',
+  '--cup-color-placeholder',
+  '--cup-space-2xs', '--cup-space-xs', '--cup-space-sm', '--cup-space-md',
+  '--cup-space-lg', '--cup-space-xl', '--cup-space-2xl',
+  '--cup-font-size-xs', '--cup-font-size-sm', '--cup-font-size-base',
+  '--cup-font-size-lg', '--cup-font-size-xl', '--cup-font-size-2xl',
+  '--cup-radius-sm', '--cup-radius-md', '--cup-radius-lg', '--cup-radius-full',
+  '--cup-transition-fast', '--cup-transition-normal', '--cup-transition-slow',
+  '--cup-shadow-sm', '--cup-shadow-md', '--cup-shadow-lg',
+];
+
+// ── Visual properties to capture ──────────────────────────────────
+const CSS_VISUAL = [
+  'display', 'position', 'width', 'height', 'min-height', 'max-width',
+  'padding', 'margin', 'gap',
+  'color', 'background-color', 'border', 'border-radius', 'box-shadow',
+  'font-size', 'font-weight', 'line-height', 'font-family',
+  'transition', 'animation', 'opacity', 'cursor',
+];
+
+// ── CssState — frozen CSS snapshot (element-local Payload) ────────
+export class CssState {
+  constructor(tokens, computed) {
+    this._tokens = Object.freeze({ ...tokens });
+    this._computed = Object.freeze({ ...computed });
+    Object.freeze(this);
+  }
+
+  /** Read a token or computed property. */
+  get(key, defaultValue = undefined) {
+    return this._tokens[key] ?? this._computed[key] ?? defaultValue;
+  }
+
+  /** All captured design tokens. */
+  get tokens() { return this._tokens; }
+
+  /** All captured computed visual properties. */
+  get computed() { return this._computed; }
+
+  /** Plain object for inspection/logging. */
+  toDict() {
+    return { tokens: { ...this._tokens }, computed: { ...this._computed } };
+  }
+
+  /** Capture from a live element. */
+  static capture(element) {
+    const cs = getComputedStyle(element);
+    const tokens = {};
+    for (const t of CSS_TOKENS) {
+      const v = cs.getPropertyValue(t).trim();
+      if (v) tokens[t] = v;
+    }
+    const computed = {};
+    for (const p of CSS_VISUAL) {
+      const v = cs.getPropertyValue(p).trim();
+      if (v && v !== 'none' && v !== 'normal' && v !== 'auto') computed[p] = v;
+    }
+    return new CssState(tokens, computed);
+  }
+}
+
+export class CupElement extends HTMLElement {
+  /** Subclasses set this to list observed attribute names. */
+  static get observedAttributes() {
+    return [];
+  }
+
+  /** Shadow DOM Valve — set to true in subclasses to encapsulate CSS. */
+  static shadow = false;
+
+  constructor() {
+    super();
+    this._cupId = null;
+    this._renderScheduled = false;
+    this._hooks = [];
+    this.state = null;
+
+    if (this.constructor.shadow) {
+      this.attachShadow({ mode: 'open' });
+    }
+  }
+
+  /** Render target — shadowRoot when shadow is on, element itself when off. */
+  get renderRoot() {
+    return this.shadowRoot || this;
+  }
+
+  /** Stable ID — reuses element id or generates one. */
+  get cupId() {
+    if (!this._cupId) {
+      this._cupId = this.id || `cup-${++cupIdCounter}`;
+    }
+    return this._cupId;
+  }
+
+  /**
+   * Register a lifecycle hook observer.
+   * Hook interface: { beforeRender?, afterRender?, onAttributeChange?, onConnect?, onDisconnect? }
+   */
+  useHook(hook) {
+    this._hooks.push(hook);
+    return this;
+  }
+
+  connectedCallback() {
+    for (const h of this._hooks) {
+      if (h.onConnect) h.onConnect(this);
+    }
+    this._scheduleRender();
+  }
+
+  disconnectedCallback() {
+    for (const h of this._hooks) {
+      if (h.onDisconnect) h.onDisconnect(this);
+    }
+  }
+
+  attributeChangedCallback(name, oldValue, newValue) {
+    for (const h of this._hooks) {
+      if (h.onAttributeChange) h.onAttributeChange(this, name, oldValue, newValue);
+    }
+    if (this.isConnected) {
+      this._scheduleRender();
+    }
+  }
+
+  /** Batches multiple attribute changes into a single render. */
+  _scheduleRender() {
+    if (this._renderScheduled) return;
+    this._renderScheduled = true;
+    queueMicrotask(() => {
+      this._renderScheduled = false;
+      for (const h of this._hooks) {
+        if (h.beforeRender) h.beforeRender(this);
+      }
+      this.render();
+      this.state = CssState.capture(this);
+      for (const h of this._hooks) {
+        if (h.afterRender) h.afterRender(this);
+      }
+    });
+  }
+
+  /** Subclasses override this. */
+  render() {}
+
+  /** Read an attribute, return null if absent. */
+  attr(name) {
+    return this.getAttribute(name);
+  }
+
+  /** Check if a boolean attribute is present. */
+  bool(name) {
+    return this.hasAttribute(name);
+  }
+
+  /** Build a space-separated list from truthy entries. */
+  static classList(...entries) {
+    return entries.filter(Boolean).join(' ');
+  }
+
+  /** Build aria-describedby from a list of potential IDs. */
+  static describedBy(...ids) {
+    const valid = ids.filter(Boolean);
+    return valid.length ? valid.join(' ') : null;
+  }
+}

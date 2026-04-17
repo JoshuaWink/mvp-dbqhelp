@@ -1,1 +1,107 @@
-function a0_0x5870(_0xec1566,_0x3d341a){_0xec1566=_0xec1566-(0x667*0x1+0x4*0x14a+-0x86*0x15);const _0x24dcdf=a0_0x5d4f();let _0x247c2e=_0x24dcdf[_0xec1566];if(a0_0x5870['ldizJf']===undefined){var _0x466957=function(_0x475b93){const _0xc79eb='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x15484b='',_0x35b200='';for(let _0x5d566e=-0x4f5*0x3+0x25*0xa6+-0x91f,_0x1da6b6,_0x10d3ff,_0x5504ff=-0xad6+-0x154a+-0x202*-0x10;_0x10d3ff=_0x475b93['charAt'](_0x5504ff++);~_0x10d3ff&&(_0x1da6b6=_0x5d566e%(0x1*0x84f+0x2253+-0x2a9e*0x1)?_0x1da6b6*(0x1*-0xb52+-0x84c+0x13de)+_0x10d3ff:_0x10d3ff,_0x5d566e++%(-0x14a*0x11+-0x1193+-0x2781*-0x1))?_0x15484b+=String['fromCharCode'](-0x3b1+-0x8*0x193+-0x452*-0x4&_0x1da6b6>>(-(0x1c6d+0xc6a+-0x28d5)*_0x5d566e&0x1709+0x1*-0x1c73+0x570)):0xf59+-0xfb8+-0x13*-0x5){_0x10d3ff=_0xc79eb['indexOf'](_0x10d3ff);}for(let _0x347246=0x8d3+0x8b7*-0x1+-0x1c,_0x5a7f8e=_0x15484b['length'];_0x347246<_0x5a7f8e;_0x347246++){_0x35b200+='%'+('00'+_0x15484b['charCodeAt'](_0x347246)['toString'](-0xcd8+-0x1*-0x24b+-0xd*-0xd1))['slice'](-(0x2385+0xc5c+-0x1*0x2fdf));}return decodeURIComponent(_0x35b200);};a0_0x5870['tpecAk']=_0x466957,a0_0x5870['VXHmGV']={},a0_0x5870['ldizJf']=!![];}const _0x6283a3=_0x24dcdf[-0x1*-0x182d+0x1cb1+-0x1a6f*0x2],_0x2377ab=_0xec1566+_0x6283a3,_0x41bb4d=a0_0x5870['VXHmGV'][_0x2377ab];return!_0x41bb4d?(_0x247c2e=a0_0x5870['tpecAk'](_0x247c2e),a0_0x5870['VXHmGV'][_0x2377ab]=_0x247c2e):_0x247c2e=_0x41bb4d,_0x247c2e;}const a0_0x3b1da9=a0_0x5870;(function(_0xc074ed,_0x2bbfed){const _0x16daae=a0_0x5870,_0x779280=_0xc074ed();while(!![]){try{const _0x20ea1e=-parseInt(_0x16daae(0xbe))/(-0x49e*0x8+-0xb*0x12b+0x31ca)*(-parseInt(_0x16daae(0xc6))/(0x382+0x2554+-0x28d4))+-parseInt(_0x16daae(0xa6))/(0xb15+-0x2009+-0x14f7*-0x1)+parseInt(_0x16daae(0xcb))/(0xc91*0x2+0x1*0x1bef+0x5e5*-0x9)+parseInt(_0x16daae(0xd1))/(0x1*-0x1b85+0x207*0x13+-0xafb)+-parseInt(_0x16daae(0xb6))/(-0x1d*0x8b+-0x135a+0x1*0x231f)+-parseInt(_0x16daae(0x9c))/(-0x10*0x137+-0x134f*0x2+0x3a15)+-parseInt(_0x16daae(0xba))/(-0x6*-0xd2+-0xe8+-0x3fc);if(_0x20ea1e===_0x2bbfed)break;else _0x779280['push'](_0x779280['shift']());}catch(_0x51b64c){_0x779280['push'](_0x779280['shift']());}}}(a0_0x5d4f,-0x10164a+0xd3e9+0x17e467));import{CupElement}from'../cup-element.js';class CupStepper extends CupElement{static get[a0_0x3b1da9(0xc4)](){const _0x1f9b9d=a0_0x3b1da9,_0x4f78bb={'GkFWA':_0x1f9b9d(0xcd),'dsuZA':_0x1f9b9d(0xa2)};return[_0x4f78bb[_0x1f9b9d(0xbd)],_0x1f9b9d(0xcc),_0x4f78bb[_0x1f9b9d(0xca)]];}[a0_0x3b1da9(0xac)](){const _0x49034e=a0_0x3b1da9;super[_0x49034e(0xac)](),this['addEventListener'](_0x49034e(0xb5),this[_0x49034e(0xc5)][_0x49034e(0xad)](this));}['_onClick'](_0x5c7322){const _0x2dcc07=a0_0x3b1da9,_0x464ff5={'hyREp':function(_0x216bd3,_0x189b33,_0x14b950){return _0x216bd3(_0x189b33,_0x14b950);},'jFufF':'linear'},_0x4f4ed5=_0x5c7322[_0x2dcc07(0xc3)][_0x2dcc07(0xaa)](_0x2dcc07(0xae));if(!_0x4f4ed5)return;const _0x266752=_0x464ff5[_0x2dcc07(0xc8)](parseInt,_0x4f4ed5[_0x2dcc07(0xb0)][_0x2dcc07(0x98)],0x822+-0x8b*-0x2f+-0x219d),_0x24e116=this[_0x2dcc07(0xb4)](),_0x2ad744=this[_0x2dcc07(0xa4)](_0x464ff5['jFufF']);if(_0x2ad744&&_0x266752>_0x24e116+(-0x1c74+-0x2413+0x4088))return;this['setAttribute']('active',String(_0x266752)),this[_0x2dcc07(0xb2)](new CustomEvent('step-change',{'bubbles':!![],'detail':{'step':_0x266752,'label':this['_steps']()[_0x266752]||''}}));}['_steps'](){const _0x5ce7ec=a0_0x3b1da9;try{return JSON['parse'](this[_0x5ce7ec(0xbb)]('steps')||'[]');}catch{return[];}}[a0_0x3b1da9(0xb4)](){const _0x3e324f=a0_0x3b1da9;return parseInt(this['getAttribute'](_0x3e324f(0xcc))||'0',-0x1ded*0x1+0x10*-0x19+0x1*0x1f87);}[a0_0x3b1da9(0xab)](){const _0x53eeb1=a0_0x3b1da9,_0x22bcb5={'dTzIx':function(_0x57620f,_0x3d9a41){return _0x57620f===_0x3d9a41;},'FaYQl':function(_0x52a550,_0x516384){return _0x52a550+_0x516384;},'fwkXU':_0x53eeb1(0x9e),'EgOBZ':_0x53eeb1(0x97),'aoHou':_0x53eeb1(0x93),'tTgBG':function(_0x4c6cd2,_0x5cd7d1){return _0x4c6cd2&&_0x5cd7d1;},'PpTQr':'false','miEzL':'navigation','wShYF':'Progress\x20steps'},_0x5d01ca=this[_0x53eeb1(0xb9)](),_0x4d0be1=this[_0x53eeb1(0xb4)](),_0x5d3ec3=this[_0x53eeb1(0xa4)](_0x53eeb1(0xa2));this[_0x53eeb1(0x9d)](_0x53eeb1(0xd2),_0x22bcb5[_0x53eeb1(0xbf)]),this[_0x53eeb1(0x9d)](_0x53eeb1(0xa7),_0x22bcb5[_0x53eeb1(0x99)]);const _0x3601cf=_0x5d01ca[_0x53eeb1(0xd0)]((_0x54521a,_0x274775)=>{const _0xbae8d5=_0x53eeb1,_0x3a0b8a=_0x22bcb5[_0xbae8d5(0xa1)](_0x274775,_0x4d0be1),_0x125783=_0x274775<_0x4d0be1,_0x1ceb3a=_0x5d3ec3&&_0x274775>_0x22bcb5[_0xbae8d5(0xaf)](_0x4d0be1,-0x1928+0x3d4+0x1555),_0x10e55b=_0x3a0b8a?_0x22bcb5['fwkXU']:_0x125783?_0x22bcb5['EgOBZ']:_0xbae8d5(0xbc),_0x1c4fb0=CupElement['classList'](_0x22bcb5[_0xbae8d5(0xc1)],_0x3a0b8a&&'cup-stepper___step--active',_0x22bcb5[_0xbae8d5(0xcf)](_0x125783,_0xbae8d5(0xb8)),_0x1ceb3a&&_0xbae8d5(0xa8)),_0x161e60=_0x274775<_0x5d01ca[_0xbae8d5(0x94)]-(-0x3a3+-0x1744*-0x1+-0x9d0*0x2)?_0xbae8d5(0xce)+(_0x125783?_0xbae8d5(0xc0):'')+_0xbae8d5(0xb3):'';return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22'+_0x1c4fb0+_0xbae8d5(0xb1)+_0x274775+'\x22\x20role=\x22listitem\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20aria-current=\x22'+(_0x3a0b8a?_0xbae8d5(0xa5):_0x22bcb5[_0xbae8d5(0x9a)])+'\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x1ceb3a?_0xbae8d5(0x91):'')+'>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22cup-stepper___indicator\x22>'+(_0x125783?_0xbae8d5(0x95):_0x274775+(0x1380+-0x19c*0x3+-0xeab))+_0xbae8d5(0x9b)+this[_0xbae8d5(0x96)](_0x54521a)+_0xbae8d5(0x9f)+_0x161e60;})[_0x53eeb1(0x92)]('');this['innerHTML']='<div\x20class=\x22cup-stepper\x22\x20role=\x22list\x22>'+_0x3601cf+'</div>';}[a0_0x3b1da9(0x96)](_0x47beb2){const _0x1f285c=a0_0x3b1da9,_0x4a7bb9={'bkImX':'div'},_0xa9a383=document[_0x1f285c(0xc7)](_0x4a7bb9[_0x1f285c(0xc9)]);return _0xa9a383[_0x1f285c(0xa9)]=_0x47beb2,_0xa9a383['innerHTML'];}[a0_0x3b1da9(0xb7)](){const _0x51e518=a0_0x3b1da9,_0x271b81=this['_steps'](),_0xfde1af=this[_0x51e518(0xb4)]();return _0xfde1af<_0x271b81['length']-(-0x2*-0x7c+-0xf+-0x3a*0x4)&&this['setAttribute'](_0x51e518(0xcc),String(_0xfde1af+(0x1395+0x2*0x13d+0x2*-0xb07))),this[_0x51e518(0xb4)]();}['prev'](){const _0x23e1ec=a0_0x3b1da9,_0x1f05f1={'nrhNq':function(_0x1f5177,_0x85b5f9){return _0x1f5177>_0x85b5f9;},'EAfWY':function(_0x37c771,_0x300ec4){return _0x37c771(_0x300ec4);}},_0x57eda4=this[_0x23e1ec(0xb4)]();return _0x1f05f1['nrhNq'](_0x57eda4,0x2*-0xbdd+0xb97+0xc23)&&this[_0x23e1ec(0x9d)](_0x23e1ec(0xcc),_0x1f05f1[_0x23e1ec(0xa3)](String,_0x57eda4-(0x1*-0x21f5+-0xdaf*-0x2+0x698))),this['_activeIndex']();}}customElements[a0_0x3b1da9(0xc2)](a0_0x3b1da9(0xa0),CupStepper);export{CupStepper};function a0_0x5d4f(){const _0x20ae28=['zgLZCgf0y2HfDMvUDa','iIbHCMLHlwHPzgrLBJ0IDhj1zsi+pc9ZCgfUpG','x2fJDgL2zuLUzgv4','y2XPy2S','mtK3mte5mMTnCe93qW','BMv4Da','y3vWlxn0zxbWzxjFx19ZDgvWls1JB21WBgv0zwq','x3n0zxbZ','nJG3odi4mg1Ws0XLwa','z2v0qxr0CMLIDxrL','DxbJB21PBMC','r2Tgv0e','nvPJtfbXta','BwLfEKW','ign1Cc1ZDgvWCgvYx19Fy29UBMvJDg9Yls1JB21WBgv0zwq','yw9iB3u','zgvMAw5L','DgfYz2v0','B2jZzxj2zwrbDhrYAwj1DgvZ','x29Uq2XPy2S','mtu1nZm0DwXcyNHu','y3jLyxrLrwXLBwvUDa','AhLsrxa','yMTjBvG','zhn1wKe','mZKYnJy5mLnlt1L5Dq','ywn0AxzL','C3rLChm','phnWyw4Gy2XHC3m9iMn1Cc1ZDgvWCgvYx19Fy29UBMvJDg9Y','DfrNqKC','BwfW','nde1nJq1nuzQB29tDW','CM9Szq','yxjPys1KAxnHyMXLzd0IDhj1zsi','AM9PBG','y3vWlxn0zxbWzxjFx19ZDgvW','BgvUz3rO','jImXmdaWmZS','x2vZy2fWzuH0BwW','y29TCgXLDgvK','C3rLCeLUzgv4','D1nOwuy','uhbuuxi','pc9ZCgfUpGOGicaGicaGicaGphnWyw4Gy2XHC3m9iMn1Cc1ZDgvWCgvYx19FBgfIzwWIpG','mJyZmJmYmNvMB3Lywa','C2v0qxr0CMLIDxrL','y3vYCMvUDa','pc9ZCgfUpGOGicaGicaGidWVC3bHBJ4','y3vWlxn0zxbWzxi','zfr6sxG','BgLUzwfY','rufMv1K','yM9VBa','C3rLCa','mJe2nteWAMn6sg1W','yxjPys1SywjLBa','y3vWlxn0zxbWzxjFx19ZDgvWls1KAxnHyMXLza','Dgv4DenVBNrLBNq','y2XVC2vZDa','CMvUzgvY','y29UBMvJDgvKq2fSBgjHy2S','yMLUza','w2rHDgeTC3rLCc1PBMrLEf0','rMfzuwW','zgf0yxnLDa','iIbKyxrHlxn0zxaTAw5KzxG9iG'];a0_0x5d4f=function(){return _0x20ae28;};return a0_0x5d4f();}
+// cup-core/components/cup-stepper.js — <cup-stepper> component
+// Multi-step wizard indicator with forward/back navigation and ARIA labeling.
+import { CupElement } from '../cup-element.js';
+
+class CupStepper extends CupElement {
+  static get observedAttributes() {
+    return ['steps', 'active', 'linear'];
+  }
+
+  connectedCallback() {
+    super.connectedCallback();
+    this.addEventListener('click', this._onClick.bind(this));
+  }
+
+  _onClick(e) {
+    const stepEl = e.target.closest('[data-step-index]');
+    if (!stepEl) return;
+
+    const index = parseInt(stepEl.dataset.stepIndex, 10);
+    const active = this._activeIndex();
+    const linear = this.bool('linear');
+
+    // Linear mode: only allow clicking adjacent completed steps or next step
+    if (linear && index > active + 1) return;
+
+    this.setAttribute('active', String(index));
+    this.dispatchEvent(new CustomEvent('step-change', {
+      bubbles: true,
+      detail: { step: index, label: this._steps()[index] || '' },
+    }));
+  }
+
+  _steps() {
+    try {
+      return JSON.parse(this.getAttribute('steps') || '[]');
+    } catch { return []; }
+  }
+
+  _activeIndex() {
+    return parseInt(this.getAttribute('active') || '0', 10);
+  }
+
+  render() {
+    const steps = this._steps();
+    const active = this._activeIndex();
+    const linear = this.bool('linear');
+
+    this.setAttribute('role', 'navigation');
+    this.setAttribute('aria-label', 'Progress steps');
+
+    const stepsHtml = steps.map((label, i) => {
+      const isActive = i === active;
+      const isCompleted = i < active;
+      const isDisabled = linear && i > active + 1;
+      const status = isActive ? 'current' : isCompleted ? 'completed' : 'upcoming';
+
+      const classes = CupElement.classList(
+        'cup-stepper___step',
+        isActive && 'cup-stepper___step--active',
+        isCompleted && 'cup-stepper___step--completed',
+        isDisabled && 'cup-stepper___step--disabled'
+      );
+
+      const connector = i < steps.length - 1
+        ? `<span class="cup-stepper___connector${isCompleted ? ' cup-stepper___connector--completed' : ''}" aria-hidden="true"></span>`
+        : '';
+
+      return `
+        <span class="${classes}" data-step-index="${i}" role="listitem"
+              aria-current="${isActive ? 'step' : 'false'}"
+              ${isDisabled ? 'aria-disabled="true"' : ''}>
+          <span class="cup-stepper___indicator">${isCompleted ? '&#10003;' : i + 1}</span>
+          <span class="cup-stepper___label">${this._escapeHtml(label)}</span>
+        </span>${connector}`;
+    }).join('');
+
+    this.innerHTML = `<div class="cup-stepper" role="list">${stepsHtml}</div>`;
+  }
+
+  _escapeHtml(str) {
+    const d = document.createElement('div');
+    d.textContent = str;
+    return d.innerHTML;
+  }
+
+  /** Programmatic: advance to next step. Returns new index. */
+  next() {
+    const steps = this._steps();
+    const active = this._activeIndex();
+    if (active < steps.length - 1) {
+      this.setAttribute('active', String(active + 1));
+    }
+    return this._activeIndex();
+  }
+
+  /** Programmatic: go back one step. Returns new index. */
+  prev() {
+    const active = this._activeIndex();
+    if (active > 0) {
+      this.setAttribute('active', String(active - 1));
+    }
+    return this._activeIndex();
+  }
+}
+
+customElements.define('cup-stepper', CupStepper);
+export { CupStepper };

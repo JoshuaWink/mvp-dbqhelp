@@ -43,7 +43,7 @@ class CupCheckbox extends CupElement {
     ].filter(Boolean).join(' ');
 
     this.innerHTML = [
-      `<label class="cup-checkbox"><input ${attrs}><span>${label}</span></label>`,
+      `<label class="cup-checkbox"><input ${attrs}><span>${label}${required ? '<span aria-hidden="true" style="color:var(--cup-color-error)"> *</span>' : ''}</span></label>`,
       hint ? `<span class="cup-hint" id="${id}-hint">${hint}</span>` : '',
       error ? `<span class="cup-error" id="${id}-error" role="alert">${error}</span>` : '',
     ].filter(Boolean).join('\n');

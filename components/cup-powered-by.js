@@ -1,1 +1,70 @@
-function a0_0x9211(){const _0x2e7d9a=['yxr0CG','B25tBKK','odGWAMPIv1zl','CMvUzgvY','Aw5Uzxjive1m','v0LZs1m','iIb0yxjNzxq9iL9IBgfUAYiGCMvSpsjUB29Wzw5LCIiGDgL0Bgu9iK9Yy2HLC3rYyxrLifnVBhv0Aw9UCYiGy2XHC3m9iMn1Cc1WB3DLCMvKlwj5x19SAw5RiJ4','B3bLBG','ugTbDg0','mtj1z0npyw8','zgvMAw5L','B3bHy2L0Eq','mJG0odC4mLDQqLPpyq','y3jLyxrLrwXLBwvUDa','y3vWlxrOzw1LlxbPy2TLCG','odGYmJDVy1nRs0m','yxbWzw5Kq2HPBgq','Ahr0Chm6lY9VCMnOzxn0CMf0zs1ZB2X1DgLVBNmUz2L0AhvIlMLV','x3nJAgvKDwXLuMvUzgvY','pc9HpIa8C3bHBIbJBgfZCZ0Iy3vWlxbVD2vYzwqTyNLFx3nVBciGCM9Szt0IyNv0Dg9UiIb0ywjPBMrLEd0ImciGDgL0Bgu9iK9Wzw4GDgHLBwuGzwrPDg9YiJ5tB2X1DgLVBJWVC3bHBJ48l3nWyw4+','ntK1mJu3mezzC0HOBW','x29Wzw5qAwnRzxi','yM9KEq','CMvHzhLtDgf0zq','ywrKrxzLBNrmAxn0zw5LCG','B3jN','mtyZmtKWrK1UEuTJ','mJi3nJuZnKLQBNzOEG','nKfLB2PuzW','odG5mJqWmffvB21cqW','ChjLDMvUDerLzMf1Bhq','zNj0vNa','AhjLzG','r1L2tfK','C3r5Bgu','phnWyw4Gy2XHC3m9iMn1Cc1WB3DLCMvKlwj5iJ5bBIa8ysbOCMvMpsi','zMfYs0m','x3jLBMrLCLnJAgvKDwXLza','Bg9Hza','zNvUy3rPB24','nZyZmduXmxPyBKDUqG','y2XPy2S'];a0_0x9211=function(){return _0x2e7d9a;};return a0_0x9211();}const a0_0x2c8baf=a0_0x173e;(function(_0x31969c,_0x40b619){const _0x117d4b=a0_0x173e,_0x324aa3=_0x31969c();while(!![]){try{const _0x5e939e=-parseInt(_0x117d4b(0x166))/(-0x18a4+-0x1962+0x3207)*(-parseInt(_0x117d4b(0x155))/(-0x158c+-0x1fdf*-0x1+-0xa51))+-parseInt(_0x117d4b(0x158))/(0x3*-0xc59+-0x6b5*-0x4+0x4d*0x22)+parseInt(_0x117d4b(0x167))/(-0x1*0x2001+-0x1*0x170d+0x6a*0x85)+-parseInt(_0x117d4b(0x160))/(0x1203*0x1+0x1be3+-0x2de1)+parseInt(_0x117d4b(0x168))/(-0x24ce+0x1b9e+0x936)*(parseInt(_0x117d4b(0x14a))/(0x2152+-0x87*-0xd+-0x2826))+parseInt(_0x117d4b(0x169))/(-0x1761+-0x5*0x40f+-0x15da*-0x2)+-parseInt(_0x117d4b(0x15b))/(0xb3*0x7+0x3*0x539+-0x1487)*(parseInt(_0x117d4b(0x14e))/(0x17f9+0x5*-0x628+0x6d9));if(_0x5e939e===_0x40b619)break;else _0x324aa3['push'](_0x324aa3['shift']());}catch(_0x2ac3ca){_0x324aa3['push'](_0x324aa3['shift']());}}}(a0_0x9211,-0xbb393+-0x210bb+0x192ac3*0x1));import{CupElement}from'../cup-element.js';const IDLE=typeof requestIdleCallback===a0_0x2c8baf(0x173)?requestIdleCallback:_0x739b3d=>setTimeout(_0x739b3d,0x1d98+0x157*0x11+-0x1*0x345e);function a0_0x173e(_0x277281,_0x43ea00){_0x277281=_0x277281-(0x1789+0x107d+-0x1*0x26bc);const _0x5bdbf7=a0_0x9211();let _0x3e971e=_0x5bdbf7[_0x277281];if(a0_0x173e['YjXLis']===undefined){var _0x505367=function(_0x182d2a){const _0x51a1c1='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x190774='',_0x3f7060='';for(let _0x400c92=-0xee*-0x28+-0x8*0x23+-0x1a4*0x16,_0x301327,_0x3bc5cf,_0x4083c7=-0x21f7+0xbf*-0x34+-0x15*-0x377;_0x3bc5cf=_0x182d2a['charAt'](_0x4083c7++);~_0x3bc5cf&&(_0x301327=_0x400c92%(-0x4a5*0x3+0x47*-0x76+0x2ead)?_0x301327*(-0x1*0x1327+-0x779*0x1+0x20*0xd7)+_0x3bc5cf:_0x3bc5cf,_0x400c92++%(-0x125d+-0x2106+0x3367))?_0x190774+=String['fromCharCode'](-0x1*0xd2d+0x2*0x78e+-0xf0&_0x301327>>(-(-0xc*-0x69+0x1*-0x6be+0x1d4)*_0x400c92&-0x26c7+-0x255e+0x25*0x20f)):-0x1406+-0x2672+0x3a78){_0x3bc5cf=_0x51a1c1['indexOf'](_0x3bc5cf);}for(let _0xe63785=-0x9*-0x2d5+-0x18*0x40+-0x137d,_0xaf3029=_0x190774['length'];_0xe63785<_0xaf3029;_0xe63785++){_0x3f7060+='%'+('00'+_0x190774['charCodeAt'](_0xe63785)['toString'](-0x1*-0x17ea+-0x1796+-0x44))['slice'](-(-0x5a3+-0x9c3+0xf68));}return decodeURIComponent(_0x3f7060);};a0_0x173e['otqHex']=_0x505367,a0_0x173e['QxSGpL']={},a0_0x173e['YjXLis']=!![];}const _0x18f0a4=_0x5bdbf7[-0xc5f*-0x1+0x2267+0x2ec6*-0x1],_0x3a8033=_0x277281+_0x18f0a4,_0x1b2b25=a0_0x173e['QxSGpL'][_0x3a8033];return!_0x1b2b25?(_0x3e971e=a0_0x173e['otqHex'](_0x3e971e),a0_0x173e['QxSGpL'][_0x3a8033]=_0x3e971e):_0x3e971e=_0x1b2b25,_0x3e971e;}class CupPoweredBy extends CupElement{static get['observedAttributes'](){const _0x324a74=a0_0x2c8baf;return[_0x324a74(0x165),'href'];}[a0_0x2c8baf(0x15e)](){const _0x4ffc08=a0_0x2c8baf,_0x452cad={'farKC':function(_0x1c5f79,_0x59f755){return _0x1c5f79(_0x59f755);}};if(this['_renderScheduled'])return;this[_0x4ffc08(0x171)]=!![];const _0x128377=()=>{const _0x230b0d=_0x4ffc08;_0x452cad[_0x230b0d(0x170)](IDLE,()=>{const _0x47f1d1=_0x230b0d;this['_renderScheduled']=![],this[_0x47f1d1(0x14f)]();});};document[_0x4ffc08(0x163)]==='complete'?_0x128377():window[_0x4ffc08(0x164)](_0x4ffc08(0x172),_0x128377,{'once':!![]});}['render'](){const _0x56a23e=a0_0x2c8baf,_0x21eee6={'PkAtm':function(_0x4618bd,_0x1d9cfc){return _0x4618bd===_0x1d9cfc;},'GYvLY':'Orchestrate','onSnI':_0x56a23e(0x16c),'frtVp':'.cup-powered-by__sol','WIsKS':'keydown'},_0x2f7fa7=this['attr'](_0x56a23e(0x165))||_0x21eee6[_0x56a23e(0x16d)],_0x1f262e=this[_0x56a23e(0x14c)](_0x21eee6[_0x56a23e(0x14d)])||_0x56a23e(0x15d);this[_0x56a23e(0x150)]=_0x56a23e(0x16f)+_0x1f262e+_0x56a23e(0x152)+_0x2f7fa7+_0x56a23e(0x15f),this[_0x56a23e(0x16e)][_0x56a23e(0x157)]='0',requestAnimationFrame(()=>{const _0x2733ec=_0x56a23e;this['style'][_0x2733ec(0x157)]='';});const _0x48b450=this['querySelector'](_0x21eee6[_0x56a23e(0x16b)]);_0x48b450[_0x56a23e(0x164)](_0x56a23e(0x14b),_0x5cb7c4=>{const _0x149baa=_0x56a23e;_0x5cb7c4[_0x149baa(0x16a)](),this[_0x149baa(0x161)]();}),_0x48b450['addEventListener'](_0x21eee6[_0x56a23e(0x151)],_0x15068b=>{const _0x412bca=_0x56a23e;(_0x21eee6[_0x412bca(0x154)](_0x15068b['key'],'Enter')||_0x15068b['key']==='\x20')&&(_0x15068b[_0x412bca(0x16a)](),this[_0x412bca(0x161)]());});}async[a0_0x2c8baf(0x161)](){const _0x4aa807=a0_0x2c8baf;let _0x317bd1=document['querySelector'](_0x4aa807(0x15a));!_0x317bd1&&(await import('./cup-theme-picker.js'),_0x317bd1=document[_0x4aa807(0x159)](_0x4aa807(0x15a)),document[_0x4aa807(0x162)][_0x4aa807(0x15c)](_0x317bd1)),_0x317bd1[_0x4aa807(0x153)]();}}customElements[a0_0x2c8baf(0x156)]('cup-powered-by',CupPoweredBy);export{CupPoweredBy};
+// cup-core/components/cup-powered-by.js — <cup-powered-by> nano component
+// Self-deferring: renders only after page load + idle, never blocks content.
+// Theme picker is lazy-loaded on first interaction, not at import time.
+import { CupElement } from '../cup-element.js';
+
+const IDLE = typeof requestIdleCallback === 'function'
+  ? requestIdleCallback
+  : (cb) => setTimeout(cb, 1);
+
+class CupPoweredBy extends CupElement {
+  static get observedAttributes() {
+    return ['org', 'href'];
+  }
+
+  /** Override base scheduling — defer until page is loaded AND idle. */
+  _scheduleRender() {
+    if (this._renderScheduled) return;
+    this._renderScheduled = true;
+
+    const doRender = () => {
+      IDLE(() => {
+        this._renderScheduled = false;
+        this.render();
+      });
+    };
+
+    // If page is already complete, go straight to idle callback.
+    // Otherwise wait for load event first.
+    if (document.readyState === 'complete') {
+      doRender();
+    } else {
+      window.addEventListener('load', doRender, { once: true });
+    }
+  }
+
+  render() {
+    const org = this.attr('org') || 'Orchestrate';
+    const href = this.attr('href') || 'https://orchestrate-solutions.github.io';
+
+    this.innerHTML = `<span class="cup-powered-by">An <a href="${href}" target="_blank" rel="noopener" title="Orchestrate Solutions" class="cup-powered-by__link">${org}</a> <span class="cup-powered-by__sol" role="button" tabindex="0" title="Open theme editor">Solution</span></span>`;
+
+    // Fade in after painting
+    this.style.opacity = '0';
+    requestAnimationFrame(() => { this.style.opacity = ''; });
+
+    const sol = this.querySelector('.cup-powered-by__sol');
+    sol.addEventListener('click', (e) => {
+      e.preventDefault();
+      this._openPicker();
+    });
+    sol.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); this._openPicker(); }
+    });
+  }
+
+  /** Lazy-load theme picker on first interaction — zero cost until clicked. */
+  async _openPicker() {
+    let picker = document.querySelector('cup-theme-picker');
+    if (!picker) {
+      // Dynamic import — only fetches cup-theme-picker.js when user clicks
+      await import('./cup-theme-picker.js');
+      picker = document.createElement('cup-theme-picker');
+      document.body.appendChild(picker);
+    }
+    picker.open();
+  }
+}
+
+customElements.define('cup-powered-by', CupPoweredBy);
+export { CupPoweredBy };

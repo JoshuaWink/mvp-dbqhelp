@@ -1,1 +1,88 @@
-const a0_0x5f20fa=a0_0x4d3a;(function(_0x32d952,_0x1ae471){const _0x28eaa5=a0_0x4d3a,_0xed105e=_0x32d952();while(!![]){try{const _0x1de0ae=-parseInt(_0x28eaa5(0xc1))/(0x6*-0x607+-0x4cc+0x28f7*0x1)*(-parseInt(_0x28eaa5(0x96))/(-0x2543+0x145c+-0xd*-0x14d))+parseInt(_0x28eaa5(0xa5))/(0xa*0x261+0x151*0x14+-0x7f*0x65)*(-parseInt(_0x28eaa5(0xa0))/(0x1e86*0x1+0x1fb5+0x3*-0x14bd))+parseInt(_0x28eaa5(0x92))/(-0x106*-0x7+0xf0f*-0x1+-0x1*-0x7ea)+parseInt(_0x28eaa5(0x89))/(-0x46a*0x4+0xb67+0x647)*(-parseInt(_0x28eaa5(0xab))/(0x4d3+0x1c*0x14b+-0x2900))+-parseInt(_0x28eaa5(0x8b))/(-0x1bd*-0x1+0x614*0x1+-0x7c9)*(parseInt(_0x28eaa5(0x80))/(0x196c+-0x1b8f+0x22c))+-parseInt(_0x28eaa5(0xa6))/(-0x1*0x1dcf+-0x1a77+0x3850)+parseInt(_0x28eaa5(0xbd))/(0x1502+-0x2*0xb62+-0x1cd*-0x1)*(parseInt(_0x28eaa5(0x85))/(-0x1*-0xf44+0x22*-0x19+-0x5f3*0x2));if(_0x1de0ae===_0x1ae471)break;else _0xed105e['push'](_0xed105e['shift']());}catch(_0x165bab){_0xed105e['push'](_0xed105e['shift']());}}}(a0_0x58f8,-0x59dde*0x1+-0x630f5*-0x1+0x40591));function a0_0x58f8(){const _0x17f7c6=['pJXIDxr0B24GDhLWzt0IyNv0Dg9UiIbJBgfZCZ0Iy3vWlwj1DhrVBIbJDxaTyNv0Dg9Uls1NAg9ZDcbJDxaTyNv0Dg9Uls1ZBsiGC3r5Bgu9iNbVC2L0Aw9UoMfIC29SDxrLo3jPz2H0oJrWEdT0B3a6ntaLo3rYyw5ZzM9YBtP0CMfUC2XHDgvzkc01mcuPoYiGyxjPys1SywjLBd0I','DhLWzq','pgrPDIbZDhLSzt0ICg9ZAxrPB246CMvSyxrPDMu7iJ48Aw5WDxqG','Dgv4DenVBNrLBNq','yM9VBa','lwvYCM9YiIbYB2XLpsjHBgvYDci+','Awq9iG','A2XrEuG','phnWyw4Gy2XHC3m9iMn1Cc1OAw50iIbPzd0I','pc9ZCgfUpG','CMvUzgvY','mtfJAxzpvfm','yMvMB3jLzw5K','w2rHDgeTDg9Nz2XLlxzPC2LIAwXPDhLD','qMXcD1y','mu9bz3HtDq','zgvZy3jPyMvKqNK','zxjYB3i','y29UBMvJDgvKq2fSBgjHy2S','mtCZotK3t1fICufc','zgLZywjSzwq','BgfIzwW','rw5pBgW','lwHPBNq','mZK5mdi2nhzJuw9puq','AgLUDa','lwLUChv0iG','yxjPys1KzxnJCMLIzwrIEt0I','mJu0ndCYB0XRB2Tr','CxvLCNLtzwXLy3rVCG','mtC2qMj5wMPV','lwvYCM9Y','yxjPys1SywjLBa','zgL2','CMvXDwLYzwq','AM9PBG','lwHPBNqIpG','mJy4mJC4mgrfwu5LwG','BMfTzt0I','zMLSDgvY','Aw5Uzxjive1m','mtaYnJi0nhbtuNLzvq','yxr0CG','BMfTzq','igrHDgeTCMvXDwLYzwq','sgLKzsbWyxnZD29Yza','y2XPy2S','y1bSuKS','y3vWlxbHC3n3B3jK','y2XHC3noyw1L','y2XHC3m9iMn1Cc1PBNb1Dci','nJa4nhDUAwLNAq','x3zPC2LIBgu','BwLUBgvUz3rOpsi','u2HVDYbWyxnZD29Yza','CgXHy2vOB2XKzxi9iG','mJeZq2nitNrU','mZC4mdeXmeTuwurUra','pc9SywjLBd4','CgXHy2vOB2XKzxi','ywz0zxjLBMq','y3vWlwzPzwXK','mJHiEKXouuO','iIbKyxrHlxrVz2DSzs12AxnPyMLSAxr5pG','s214Afu','BwLUBgvUz3rO','CgfZC3DVCMq','phnWyw4Gy2XHC3m9iMn1Cc1LCNjVCIiGAwq9iG','BxHkBK0'];a0_0x58f8=function(){return _0x17f7c6;};return a0_0x58f8();}function a0_0x4d3a(_0x11541a,_0xff28bb){_0x11541a=_0x11541a-(0xa0*-0x26+-0x11*0x1a5+0x3433);const _0x1fe23b=a0_0x58f8();let _0x54dce6=_0x1fe23b[_0x11541a];if(a0_0x4d3a['jZRocU']===undefined){var _0x102aac=function(_0x1e1605){const _0x14b127='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x238351='',_0x16e030='';for(let _0x9d1260=0x3*0xc7+-0x3*0x373+0x804,_0x270e13,_0x3332e9,_0x5d6936=-0x1f72+-0x756+0x26c8;_0x3332e9=_0x1e1605['charAt'](_0x5d6936++);~_0x3332e9&&(_0x270e13=_0x9d1260%(-0x1*-0x1f0d+-0x1b61+-0x3a8)?_0x270e13*(-0x1ea3+0xf9b+0xf48)+_0x3332e9:_0x3332e9,_0x9d1260++%(0x1*0x1eb1+-0x2070+-0x1*-0x1c3))?_0x238351+=String['fromCharCode'](0x1fed+0x164+-0x3*0xac6&_0x270e13>>(-(-0x4*0x3c7+0x593*-0x7+0x3623*0x1)*_0x9d1260&-0x286+-0x1330+0x15bc)):-0x1*-0x2153+-0x6fb*0x1+-0x1a58){_0x3332e9=_0x14b127['indexOf'](_0x3332e9);}for(let _0x16c7f7=0x242f+0x2426+0x4855*-0x1,_0x2568bb=_0x238351['length'];_0x16c7f7<_0x2568bb;_0x16c7f7++){_0x16e030+='%'+('00'+_0x238351['charCodeAt'](_0x16c7f7)['toString'](-0x4c*0x1d+0x84*0x2+0x7a4))['slice'](-(-0xd*-0x1ad+0x1f*0x13d+-0x97*0x66));}return decodeURIComponent(_0x16e030);};a0_0x4d3a['TiUFNK']=_0x102aac,a0_0x4d3a['XgNcSb']={},a0_0x4d3a['jZRocU']=!![];}const _0x47a648=_0x1fe23b[-0x2d*-0x14+0x33*-0xae+0x1f26],_0x3d1c1c=_0x11541a+_0x47a648,_0x59056c=a0_0x4d3a['XgNcSb'][_0x3d1c1c];return!_0x59056c?(_0x54dce6=a0_0x4d3a['TiUFNK'](_0x54dce6),a0_0x4d3a['XgNcSb'][_0x3d1c1c]=_0x54dce6):_0x54dce6=_0x59056c,_0x54dce6;}import{CupElement}from'../cup-element.js';class CupPassword extends CupElement{static get['observedAttributes'](){const _0x405eac=a0_0x4d3a,_0x30df05={'UhVvu':'label','KmxhU':_0x405eac(0x8f),'BlBwV':_0x405eac(0x7e)};return[_0x30df05['UhVvu'],_0x30df05[_0x405eac(0xad)],_0x30df05[_0x405eac(0xc0)],'hint',_0x405eac(0x81),_0x405eac(0xa8),_0x405eac(0x98),'minlength'];}[a0_0x5f20fa(0x7f)](){const _0x231f0d=a0_0x5f20fa;this[_0x231f0d(0xa1)]=![],super['connectedCallback']();}['render'](){const _0x4ccebe=a0_0x5f20fa,_0x23508c={'cPlRK':_0x4ccebe(0xae),'irUiN':_0x4ccebe(0xaa),'klQyH':_0x4ccebe(0x9a),'uiPcP':_0x4ccebe(0x8e),'FYVyF':_0x4ccebe(0xbe),'EnOll':function(_0x3c7321,_0xa5dee5){return _0x3c7321||_0xa5dee5;},'mxJnM':'aria-invalid=\x22true\x22','cWxhd':'[data-toggle-visibility]'},_0x402541=this['cupId'],_0x3de2e3=this[_0x4ccebe(0x97)](_0x4ccebe(0x82)),_0x3bd71d=this['attr']('error'),_0xbb4244=this['attr'](_0x4ccebe(0x86)),_0x53f41d=this[_0x4ccebe(0xb6)]('required'),_0x2d9e69=this['bool'](_0x4ccebe(0x81)),_0x1a7b77=this[_0x4ccebe(0x97)](_0x4ccebe(0xa8)),_0x2c13db=this[_0x4ccebe(0x97)]('name'),_0x65e9c1=this['attr'](_0x23508c[_0x4ccebe(0x9c)]);this[_0x4ccebe(0x9e)]=_0x23508c['irUiN'];if(_0x3bd71d)this['setAttribute']('data-state',_0x4ccebe(0x7e));else this['removeAttribute']('data-state');const _0x21163c=CupElement[_0x4ccebe(0xc2)](_0xbb4244?_0x402541+_0x4ccebe(0x84):null,_0x3bd71d?_0x402541+_0x4ccebe(0x8c):null),_0x478628=this['_visible']?'text':_0x4ccebe(0xaf),_0x1c568d=this[_0x4ccebe(0xa1)]?_0x23508c[_0x4ccebe(0xb9)]:_0x4ccebe(0xa3),_0x11a2ef=this[_0x4ccebe(0x8a)]('#'+_0x402541+'-input');if(_0x11a2ef){_0x11a2ef[_0x4ccebe(0xb3)]=_0x478628;const _0x4be2ad=this[_0x4ccebe(0x8a)](_0x4ccebe(0xbf));_0x4be2ad&&(_0x4be2ad['setAttribute'](_0x4ccebe(0x8d),_0x1c568d),_0x4be2ad[_0x4ccebe(0xb5)]=this[_0x4ccebe(0xa1)]?'◉':'◎');const _0x50c7b4=this[_0x4ccebe(0x8a)]('#'+_0x402541+'-hint'),_0x3b0b22=this['querySelector']('#'+_0x402541+_0x4ccebe(0x8c));if(_0xbb4244&&!_0x50c7b4)_0x11a2ef['closest'](_0x23508c['uiPcP'])['insertAdjacentHTML'](_0x4ccebe(0xa9),_0x4ccebe(0xba)+_0x402541+_0x4ccebe(0x91)+_0xbb4244+_0x4ccebe(0xbb));else _0x50c7b4&&(_0x50c7b4['textContent']=_0xbb4244||'');if(_0x3bd71d&&!_0x3b0b22)this['insertAdjacentHTML'](_0x23508c['FYVyF'],'<span\x20class=\x22cup-error\x22\x20id=\x22'+_0x402541+'-error\x22\x20role=\x22alert\x22>'+_0x3bd71d+'</span>');else _0x3b0b22&&(_0x3b0b22[_0x4ccebe(0xb5)]=_0x23508c[_0x4ccebe(0x83)](_0x3bd71d,''));return;}const _0x2499ef=[_0x4ccebe(0x9f),_0x4ccebe(0xb8)+_0x402541+_0x4ccebe(0x87),'type=\x22'+_0x478628+'\x22',_0x1a7b77?_0x4ccebe(0xa4)+_0x1a7b77+'\x22':'',_0x2d9e69?_0x4ccebe(0x81):'',_0x2c13db?_0x4ccebe(0x93)+_0x2c13db+'\x22':'',_0x65e9c1?_0x4ccebe(0xa2)+_0x65e9c1+'\x22':'',_0x53f41d?'aria-required=\x22true\x22':'',_0x3bd71d?_0x23508c[_0x4ccebe(0xb1)]:'',_0x21163c?_0x4ccebe(0x88)+_0x21163c+'\x22':''][_0x4ccebe(0x94)](Boolean)[_0x4ccebe(0x90)]('\x20');this[_0x4ccebe(0x95)]=[_0x3de2e3?'<label\x20class=\x22cup-label\x22\x20for=\x22'+_0x402541+_0x4ccebe(0x87)+(_0x53f41d?_0x4ccebe(0x99):'')+'>'+_0x3de2e3+_0x4ccebe(0xa7):'',_0x4ccebe(0xb4)+_0x2499ef+_0x4ccebe(0xb2)+_0x1c568d+_0x4ccebe(0xac)+(this[_0x4ccebe(0xa1)]?'◉':'◎')+'</button></div>',_0xbb4244?'<span\x20class=\x22cup-hint\x22\x20id=\x22'+_0x402541+_0x4ccebe(0x91)+_0xbb4244+'</span>':'',_0x3bd71d?_0x4ccebe(0xb0)+_0x402541+_0x4ccebe(0xb7)+_0x3bd71d+'</span>':''][_0x4ccebe(0x94)](Boolean)[_0x4ccebe(0x90)]('\x0a'),this['querySelector'](_0x23508c['cWxhd'])['addEventListener'](_0x4ccebe(0x9b),()=>{const _0x4649fa=_0x4ccebe;this['_visible']=!this['_visible'],this[_0x4649fa(0xbc)]();});}}customElements['define'](a0_0x5f20fa(0x9d),CupPassword);export{CupPassword};
+// cup-core/components/cup-password.js — <cup-password> micro component
+import { CupElement } from '../cup-element.js';
+
+class CupPassword extends CupElement {
+  static get observedAttributes() {
+    return ['label', 'required', 'error', 'hint', 'disabled', 'placeholder', 'name', 'minlength'];
+  }
+
+  connectedCallback() {
+    this._visible = false;
+    super.connectedCallback();
+  }
+
+  render() {
+    const id = this.cupId;
+    const label = this.attr('label');
+    const error = this.attr('error');
+    const hint = this.attr('hint');
+    const required = this.bool('required');
+    const disabled = this.bool('disabled');
+    const placeholder = this.attr('placeholder');
+    const name = this.attr('name');
+    const minlength = this.attr('minlength');
+
+    this.className = 'cup-field';
+    if (error) this.setAttribute('data-state', 'error');
+    else this.removeAttribute('data-state');
+
+    const describedBy = CupElement.describedBy(
+      hint ? `${id}-hint` : null,
+      error ? `${id}-error` : null
+    );
+
+    const type = this._visible ? 'text' : 'password';
+    const toggleLabel = this._visible ? 'Hide password' : 'Show password';
+
+    // If the input already exists, patch in place (preserves value + focus)
+    const existingInput = this.querySelector(`#${id}-input`);
+    if (existingInput) {
+      existingInput.type = type;
+      const btn = this.querySelector('[data-toggle-visibility]');
+      if (btn) {
+        btn.setAttribute('aria-label', toggleLabel);
+        btn.textContent = this._visible ? '◉' : '◎';
+      }
+      // Update error/hint state without replacing DOM
+      const hintEl = this.querySelector(`#${id}-hint`);
+      const errorEl = this.querySelector(`#${id}-error`);
+      if (hint && !hintEl) {
+        existingInput.closest('div').insertAdjacentHTML('afterend', `<span class="cup-hint" id="${id}-hint">${hint}</span>`);
+      } else if (hintEl) { hintEl.textContent = hint || ''; }
+      if (error && !errorEl) {
+        this.insertAdjacentHTML('beforeend', `<span class="cup-error" id="${id}-error" role="alert">${error}</span>`);
+      } else if (errorEl) { errorEl.textContent = error || ''; }
+      return;
+    }
+
+    // First render — build the full DOM
+    const attrs = [
+      `class="cup-input"`,
+      `id="${id}-input"`,
+      `type="${type}"`,
+      placeholder ? `placeholder="${placeholder}"` : '',
+      disabled ? 'disabled' : '',
+      name ? `name="${name}"` : '',
+      minlength ? `minlength="${minlength}"` : '',
+      required ? 'aria-required="true"' : '',
+      error ? 'aria-invalid="true"' : '',
+      describedBy ? `aria-describedby="${describedBy}"` : '',
+    ].filter(Boolean).join(' ');
+
+    this.innerHTML = [
+      label ? `<label class="cup-label" for="${id}-input"${required ? ' data-required' : ''}>${label}${required ? '<span aria-hidden="true" style="color:var(--cup-color-error)"> *</span>' : ''}</label>` : '',
+      `<div style="position:relative;"><input ${attrs}><button type="button" class="cup-button cup-button--ghost cup-button--sm" style="position:absolute;right:4px;top:50%;transform:translateY(-50%);" aria-label="${toggleLabel}" data-toggle-visibility>${this._visible ? '◉' : '◎'}</button></div>`,
+      hint ? `<span class="cup-hint" id="${id}-hint">${hint}</span>` : '',
+      error ? `<span class="cup-error" id="${id}-error" role="alert">${error}</span>` : '',
+    ].filter(Boolean).join('\n');
+
+    // Attach toggle listener once
+    this.querySelector('[data-toggle-visibility]').addEventListener('click', () => {
+      this._visible = !this._visible;
+      this.render();
+    });
+  }
+}
+
+customElements.define('cup-password', CupPassword);
+export { CupPassword };

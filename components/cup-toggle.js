@@ -1,1 +1,101 @@
-const a0_0x3999a2=a0_0x1339;(function(_0x3a4352,_0x4261a8){const _0x569e9d=a0_0x1339,_0x4bba18=_0x3a4352();while(!![]){try{const _0x59b50b=parseInt(_0x569e9d(0x86))/(0x1f0d*0x1+-0x2450+-0x2a2*-0x2)+parseInt(_0x569e9d(0x77))/(-0x139b*0x1+0x1*0x2089+-0x676*0x2)*(-parseInt(_0x569e9d(0x6b))/(-0x709*0x2+-0x6b*0x4+-0x6d*-0x25))+parseInt(_0x569e9d(0x8b))/(0x2b*-0x29+0x22ee+0x11f*-0x19)+-parseInt(_0x569e9d(0x75))/(0x1513+0x29*0x1+-0x1537)*(parseInt(_0x569e9d(0x80))/(-0x1*0x255b+0x14c+0x2415))+parseInt(_0x569e9d(0x83))/(-0x105*0x2+-0x14ce+0x5*0x493)*(parseInt(_0x569e9d(0x6a))/(-0x3e*-0x25+0x2141+-0x2a2f))+parseInt(_0x569e9d(0x74))/(-0x1*0x26c4+0x18b*-0x19+-0x1358*-0x4)+parseInt(_0x569e9d(0x81))/(0x1*-0xa33+0x6a2*-0x2+0x1781)*(parseInt(_0x569e9d(0x79))/(-0xf77+-0x31c+0x94f*0x2));if(_0x59b50b===_0x4261a8)break;else _0x4bba18['push'](_0x4bba18['shift']());}catch(_0xbb08f4){_0x4bba18['push'](_0x4bba18['shift']());}}}(a0_0x4804,0x5*0x28777+0xa5748*0x1+-0x8fade));import{CupElement}from'../cup-element.js';function a0_0x1339(_0xb09c73,_0x42d4c8){_0xb09c73=_0xb09c73-(-0x95*-0x23+0x1bbb+-0x2fb0);const _0x4e1466=a0_0x4804();let _0x159c2f=_0x4e1466[_0xb09c73];if(a0_0x1339['hRfdTM']===undefined){var _0x166a62=function(_0x481e93){const _0x2c0e5d='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x13b949='',_0x472f44='';for(let _0x17caa6=0x95b+-0x234+0x727*-0x1,_0x571c52,_0x392b49,_0x1dead4=-0xbc*-0x9+0x1367+-0x1a03*0x1;_0x392b49=_0x481e93['charAt'](_0x1dead4++);~_0x392b49&&(_0x571c52=_0x17caa6%(0x24b6*-0x1+0xd8d+0x172d)?_0x571c52*(-0xc*-0x110+0x257a+-0x31fa)+_0x392b49:_0x392b49,_0x17caa6++%(0xba3*-0x1+0x957+-0x250*-0x1))?_0x13b949+=String['fromCharCode'](-0x15b7*-0x1+0x33b+-0x17f3&_0x571c52>>(-(0xb1*0x32+-0x2b*-0xca+0x16*-0x31d)*_0x17caa6&0xdbd+-0x1453+-0x5e*-0x12)):-0x2*-0x8b+0x1f81+0x2097*-0x1){_0x392b49=_0x2c0e5d['indexOf'](_0x392b49);}for(let _0x541b5c=0x1bb7+0x10e5+0x14*-0x23b,_0x13c9d4=_0x13b949['length'];_0x541b5c<_0x13c9d4;_0x541b5c++){_0x472f44+='%'+('00'+_0x13b949['charCodeAt'](_0x541b5c)['toString'](0x258a+0x1e95*0x1+-0x83*0x85))['slice'](-(0x1c41*-0x1+-0x293+0x1ed6));}return decodeURIComponent(_0x472f44);};a0_0x1339['iOHOZT']=_0x166a62,a0_0x1339['YSkMSK']={},a0_0x1339['hRfdTM']=!![];}const _0x5d497b=_0x4e1466[0x2446+0x1ddd+-0x4223],_0x1d36fb=_0xb09c73+_0x5d497b,_0x163e2a=a0_0x1339['YSkMSK'][_0x1d36fb];return!_0x163e2a?(_0x159c2f=a0_0x1339['iOHOZT'](_0x159c2f),a0_0x1339['YSkMSK'][_0x1d36fb]=_0x159c2f):_0x159c2f=_0x163e2a,_0x159c2f;}class CupToggle extends CupElement{static ['shadow']=!![];static get[a0_0x3999a2(0x7f)](){const _0x4d7a15=a0_0x3999a2,_0x571c52={'JQYvc':_0x4d7a15(0x89)};return['label',_0x571c52[_0x4d7a15(0x6d)],_0x4d7a15(0x7c)];}[a0_0x3999a2(0x7e)](){const _0x2fbbd9=a0_0x3999a2,_0x392b49={'aOCHb':_0x2fbbd9(0x7c)};super[_0x2fbbd9(0x7e)](),this[_0x2fbbd9(0x6c)][_0x2fbbd9(0x71)](_0x2fbbd9(0x76),()=>{const _0x99c131=_0x2fbbd9;if(this[_0x99c131(0x72)](_0x392b49['aOCHb']))return;const _0x1dead4=this['hasAttribute'](_0x99c131(0x89));if(_0x1dead4)this[_0x99c131(0x7b)](_0x99c131(0x89));else this[_0x99c131(0x85)]('pressed','');this[_0x99c131(0x6e)](new Event(_0x99c131(0x6f),{'bubbles':!![]}));});}['render'](){const _0x4ba96f=a0_0x3999a2,_0x541b5c={'UIphy':'button','gKQlm':_0x4ba96f(0x7c)},_0x13c9d4=this[_0x4ba96f(0x78)](_0x4ba96f(0x84))||'',_0x41dc34=this['hasAttribute']('pressed'),_0x494a7f=this[_0x4ba96f(0x72)](_0x4ba96f(0x7c)),_0x2b3bc1=this[_0x4ba96f(0x6c)][_0x4ba96f(0x7d)](_0x541b5c['UIphy']);if(_0x2b3bc1){_0x2b3bc1[_0x4ba96f(0x85)](_0x4ba96f(0x73),String(_0x41dc34));if(_0x494a7f)_0x2b3bc1['setAttribute'](_0x4ba96f(0x7c),'');else _0x2b3bc1[_0x4ba96f(0x7b)](_0x541b5c[_0x4ba96f(0x88)]);if(_0x13c9d4)_0x2b3bc1['setAttribute'](_0x4ba96f(0x70),_0x13c9d4);const _0x5ab1a5=this['renderRoot']['querySelector'](_0x4ba96f(0x8c));if(_0x5ab1a5)_0x5ab1a5['textContent']=_0x13c9d4;return;}this[_0x4ba96f(0x6c)][_0x4ba96f(0x8a)]=_0x4ba96f(0x82)+_0x41dc34+'\x22\x20'+(_0x494a7f?_0x4ba96f(0x7c):'')+'\x20'+(_0x13c9d4?_0x4ba96f(0x87)+_0x13c9d4+'\x22':'')+'>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22thumb\x22></span>\x0a\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20'+(_0x13c9d4?'<span\x20class=\x22toggle-label\x22>'+_0x13c9d4+'</span>':'')+_0x4ba96f(0x7a);}}customElements['define']('cup-toggle',CupToggle);function a0_0x4804(){const _0x5208ce=['mtC1mdqZmNLquvDorW','lNrVz2DSzs1SywjLBa','mJrjEu5SB1C','ndj1BKP1sMe','CMvUzgvYuM9VDa','sLfzDMm','zgLZCgf0y2HfDMvUDa','y2HHBMDL','yxjPys1SywjLBa','ywrKrxzLBNrmAxn0zw5LCG','AgfZqxr0CMLIDxrL','yxjPys1JAgvJA2vK','mtq2ntG3mJn6rwH1C1m','ndG2nZG1nurAvxncCW','y2XPy2S','mJqYnJu2B1j5ve1P','z2v0qxr0CMLIDxrL','mtfMDLPPq1y','cIaGica','CMvTB3zLqxr0CMLIDxrL','zgLZywjSzwq','CxvLCNLtzwXLy3rVCG','y29UBMvJDgvKq2fSBgjHy2S','B2jZzxj2zwrbDhrYAwj1DgvZ','nMn2AhHQwa','nta1otqZmgHKyLDjwa','cIaGicaGidXZDhLSzt4kicaGicaGica6Ag9ZDcb7igrPC3bSyxK6igLUBgLUzs1MBgv4oYbHBgLNBI1PDgvTCZOGy2vUDgvYoYbNyxa6idaUnxjLBtSGFqOGicaGicaGigj1DhrVBIb7cIaGicaGicaGicbWB3nPDgLVBJOGCMvSyxrPDMu7cIaGicaGicaGicb3Awr0AdOGmI41CMvToWOGicaGicaGicaGAgvPz2H0oIaXlJm3nxjLBtSkicaGicaGicaGigjHy2TNCM91BMq6ihzHCIGTlwn1Cc1JB2XVCI1IB3jKzxiSicmZmZmPoWOGicaGicaGicaGyM9YzgvYoIbUB25LoWOGicaGicaGicaGyM9YzgvYlxjHzgL1CZOGotK5oxb4oWOGicaGicaGicaGy3vYC29YoIbWB2LUDgvYoWOGicaGicaGicaGCgfKzgLUzZOGmdSkicaGicaGicaGihrYyw5ZAxrPB246igjHy2TNCM91BMqTy29SB3iGmZuWBxmGy3vIAwmTyMv6AwvYkc40lcaWlcaUmIWGmsK7cIaGicaGicaGFqOGicaGicaGidPOB3n0kfTWCMvZC2vKxsKGyNv0Dg9UihSkicaGicaGicaGigjHy2TNCM91BMq6ihzHCIGTlwn1Cc1JB2XVCI1WCMLTyxj5lcaJngzJm2y3ktSkicaGicaGicb9cIaGicaGicaGoMHVC3qOw2rPC2fIBgvKxsKGyNv0Dg9UihSkicaGicaGicaGig9WywnPDhK6idaUntSkicaGicaGicaGign1CNnVCJOGBM90lwfSBg93zwq7cIaGicaGicaGFqOGicaGicaGigj1DhrVBJPMB2n1CY12AxnPyMXLihSkicaGicaGicaGig91DgXPBMu6idjWEcbZB2XPzcb2yxiOls1JDxaTy29SB3iTzM9JDxmSicm0zMmZzJCPoWOGicaGicaGicaGB3v0BgLUzs1VzMzZzxq6idjWEdSkicaGicaGicb9cIaGicaGicaGlNrODw1IihSkicaGicaGicaGihbVC2L0Aw9UoIbHyNnVBhv0ztSkicaGicaGicaGihrVCdOGmNb4oWOGicaGicaGicaGBgvMDdOGmNb4oWOGicaGicaGicaGD2LKDgG6ideUmti1CMvToWOGicaGicaGicaGAgvPz2H0oIaXlJeYnxjLBtSkicaGicaGicaGigjHy2TNCM91BMq6ihzHCIGTlwn1Cc1JB2XVCI1VBI1ZDxjMywnLlcaJztbLmguWktSkicaGicaGicaGigjVCMrLCI1YywrPDxm6idK5otLWEdSkicaGicaGicaGihrYyw5ZzM9YBtOGDhjHBNnSyxrLwcGWktSkicaGicaGicaGihrYyw5ZAxrPB246ihrYyw5ZzM9YBsaZntbTCYbJDwjPyY1IzxPPzxiOlJm0lcaXlJu2lcaUnJqSidePoWOGicaGicaGicaGD2LSBc1JAgfUz2u6ihrYyw5ZzM9YBtSkicaGicaGicb9cIaGicaGicaGoMHVC3qOw3bYzxnZzwrDksaUDgH1BwiGEWOGicaGicaGicaGDhjHBNnMB3jToIb0CMfUC2XHDgvykdeUmti1CMvTktSkicaGicaGicb9cIaGicaGicaGyNv0Dg9UoMfJDgL2ztPUB3qOoMrPC2fIBgvKksaUDgH1BwiGEWOGicaGicaGicaGDhjHBNnMB3jToIbZy2fSzvGOms4XnsK7cIaGicaGicaGFqOGicaGicaGidPOB3n0kfTWCMvZC2vKxsKGyNv0Dg9UoMfJDgL2ztPUB3qOoMrPC2fIBgvKksaUDgH1BwiGEWOGicaGicaGicaGDhjHBNnMB3jToIb0CMfUC2XHDgvykdeUmti1CMvTksbZy2fSzvGOms4XnsK7cIaGicaGicaGFqOGicaGicaGic50B2DNBguTBgfIzwWGEYbMB250lxnPEMu6idaUodC1CMvToYbJB2XVCJOGDMfYkc0Ty3vWlwnVBg9Ylw9Ulxn1CMzHy2uSicnLmguWztaPoYb9cIaGicaGicaGqg1LzgLHicHWCMvMzxjZlxjLzhvJzwqTBw90Aw9UoIbYzwr1y2uPihSkicaGicaGicaGic50AhvTyIWGyNv0Dg9UihSGDhjHBNnPDgLVBJOGBM9UztSGFqOGicaGicaGih0kicaGicaGpc9ZDhLSzt4kicaGicaGpgj1DhrVBIbYB2XLpsjZD2L0y2GIigfYAweTy2HLy2TLzd0I','ntyZmZC0A1fjzw1e','BgfIzwW','C2v0qxr0CMLIDxrL','nZC2mZy4t2nRzvDz','yxjPys1SywjLBd0I','z0TrBg0','ChjLC3nLza','Aw5Uzxjive1m'];a0_0x4804=function(){return _0x5208ce;};return a0_0x4804();}export{CupToggle};
+// cup-core/components/cup-toggle.js — <cup-toggle> micro component
+// Shadow DOM via CupElement Valve — encapsulates track/thumb geometry.
+import { CupElement } from '../cup-element.js';
+
+class CupToggle extends CupElement {
+  static shadow = true;
+
+  static get observedAttributes() {
+    return ['label', 'pressed', 'disabled'];
+  }
+
+  connectedCallback() {
+    super.connectedCallback();
+    this.renderRoot.addEventListener('click', () => {
+      if (this.hasAttribute('disabled')) return;
+      const pressed = this.hasAttribute('pressed');
+      if (pressed) this.removeAttribute('pressed');
+      else this.setAttribute('pressed', '');
+      this.dispatchEvent(new Event('change', { bubbles: true }));
+    });
+  }
+
+  render() {
+    const label = this.getAttribute('label') || '';
+    const pressed = this.hasAttribute('pressed');
+    const disabled = this.hasAttribute('disabled');
+
+    // Update existing DOM — don't rebuild, so CSS transitions fire
+    const btn = this.renderRoot.querySelector('button');
+    if (btn) {
+      btn.setAttribute('aria-checked', String(pressed));
+      if (disabled) btn.setAttribute('disabled', '');
+      else btn.removeAttribute('disabled');
+      if (label) btn.setAttribute('aria-label', label);
+      const labelEl = this.renderRoot.querySelector('.toggle-label');
+      if (labelEl) labelEl.textContent = label;
+      return;
+    }
+
+    // First render — build full DOM with :host() CSS selectors
+    this.renderRoot.innerHTML = `
+      <style>
+        :host { display: inline-flex; align-items: center; gap: 0.5rem; }
+        button {
+          position: relative;
+          width: 2.5rem;
+          height: 1.375rem;
+          background: var(--cup-color-border, #333);
+          border: none;
+          border-radius: 9999px;
+          cursor: pointer;
+          padding: 0;
+          transition: background-color 350ms cubic-bezier(.4, 0, .2, 1);
+        }
+        :host([pressed]) button {
+          background: var(--cup-color-primary, #4fc3f7);
+        }
+        :host([disabled]) button {
+          opacity: 0.5;
+          cursor: not-allowed;
+        }
+        button:focus-visible {
+          outline: 2px solid var(--cup-color-focus, #4fc3f7);
+          outline-offset: 2px;
+        }
+        .thumb {
+          position: absolute;
+          top: 2px;
+          left: 2px;
+          width: 1.125rem;
+          height: 1.125rem;
+          background: var(--cup-color-on-surface, #e0e0e0);
+          border-radius: 9999px;
+          transform: translateX(0);
+          transition: transform 350ms cubic-bezier(.34, 1.56, .64, 1);
+          will-change: transform;
+        }
+        :host([pressed]) .thumb {
+          transform: translateX(1.125rem);
+        }
+        button:active:not(:disabled) .thumb {
+          transform: scaleX(1.15);
+        }
+        :host([pressed]) button:active:not(:disabled) .thumb {
+          transform: translateX(1.125rem) scaleX(1.15);
+        }
+        .toggle-label { font-size: 0.875rem; color: var(--cup-color-on-surface, #e0e0e0); }
+        @media (prefers-reduced-motion: reduce) {
+          .thumb, button { transition: none; }
+        }
+      </style>
+      <button role="switch" aria-checked="${pressed}" ${disabled ? 'disabled' : ''} ${label ? `aria-label="${label}"` : ''}>
+        <span class="thumb"></span>
+      </button>
+      ${label ? `<span class="toggle-label">${label}</span>` : ''}
+    `;
+  }
+}
+
+customElements.define('cup-toggle', CupToggle);
+export { CupToggle };

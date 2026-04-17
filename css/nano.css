@@ -21,15 +21,7 @@
     line-height: var(--cup-line-height-tight);
   }
 
-  .cup-label[data-required]::after {
-    content: ' *';
-    color: var(--cup-color-error);
-  }
 
-  .cup-radio-group[data-required] legend::after {
-    content: ' *';
-    color: var(--cup-color-error);
-  }
 
   /* ── Input ── */
   .cup-input {
@@ -109,9 +101,7 @@
     line-height: var(--cup-line-height);
   }
 
-  .cup-error::before {
-    content: '⚠ ';
-  }
+
 
   /* ── Icon ── */
   .cup-icon {

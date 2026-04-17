@@ -1,1 +1,70 @@
-const a0_0x3eb5e4=a0_0x3aa0;(function(_0x851207,_0x11b4da){const _0x5a6765=a0_0x3aa0,_0x2331fa=_0x851207();while(!![]){try{const _0x1e6aa1=-parseInt(_0x5a6765(0xc4))/(0x1a23*0x1+0x2383*0x1+0x1*-0x3da5)*(-parseInt(_0x5a6765(0xeb))/(-0x2*0xc05+0x3e*-0x6d+0x3272))+-parseInt(_0x5a6765(0xec))/(0x1e9d+0xe61+-0x2cfb)*(parseInt(_0x5a6765(0xd1))/(-0x757*-0x1+0x13c2+-0x1*0x1b15))+parseInt(_0x5a6765(0xef))/(0x2*0x1380+-0x2*0x1091+-0x5d9)*(-parseInt(_0x5a6765(0xd7))/(0x1236+0xe6a+-0x209a))+-parseInt(_0x5a6765(0xe6))/(-0x8aa+-0x253c+-0x2ded*-0x1)+parseInt(_0x5a6765(0xe0))/(0x1a*0x5+-0x1*0x26ff+-0x207*-0x13)*(parseInt(_0x5a6765(0xe5))/(-0x3*0x567+-0x52a+-0x112*-0x14))+parseInt(_0x5a6765(0xe4))/(0x128+-0x2f*-0xaf+0xb15*-0x3)+parseInt(_0x5a6765(0xdc))/(-0x1ec6+-0xefc+0x2dcd);if(_0x1e6aa1===_0x11b4da)break;else _0x2331fa['push'](_0x2331fa['shift']());}catch(_0x39eeb0){_0x2331fa['push'](_0x2331fa['shift']());}}}(a0_0x57b4,0xea69b*-0x1+0x2f94b+-0xf*-0x16615));import{CupElement}from'../cup-element.js';class CupSelect extends CupElement{static get[a0_0x3eb5e4(0xdb)](){const _0x4033a0=a0_0x3eb5e4,_0x1baee0={'EJAgs':'label','gfwnr':'error','Xmmcl':_0x4033a0(0xdd),'noJeG':_0x4033a0(0xf2)};return[_0x1baee0[_0x4033a0(0xc6)],_0x4033a0(0xd2),_0x4033a0(0xe8),_0x1baee0[_0x4033a0(0xed)],'hint',_0x1baee0[_0x4033a0(0xf5)],_0x4033a0(0xe1),_0x4033a0(0xe3),_0x1baee0['noJeG']];}[a0_0x3eb5e4(0xce)](){const _0x55b74b=a0_0x3eb5e4,_0x33ff7e={'uRaHl':'disabled','wCMyT':'value','MxFrH':_0x55b74b(0xe9)},_0x488f53=this['cupId'],_0x7a596c=this[_0x55b74b(0xd9)](_0x55b74b(0xc5)),_0x4800a7=this[_0x55b74b(0xd9)](_0x55b74b(0xd2)),_0x3f9bef=this['attr'](_0x55b74b(0xe9)),_0x15d0af=this[_0x55b74b(0xd9)](_0x55b74b(0xfa)),_0x2df062=this[_0x55b74b(0xcb)](_0x55b74b(0xe8)),_0xf8ed9=this[_0x55b74b(0xcb)](_0x33ff7e[_0x55b74b(0xfb)]),_0x4f9633=this[_0x55b74b(0xd9)](_0x33ff7e['wCMyT']),_0xb3025d=this['attr']('name'),_0x45ed89=this['attr'](_0x55b74b(0xf2));this[_0x55b74b(0xf9)]=_0x55b74b(0xf0);if(_0x3f9bef)this[_0x55b74b(0xcc)](_0x55b74b(0xe2),_0x33ff7e['MxFrH']);else this['removeAttribute']('data-state');if(_0x2df062)this['setAttribute'](_0x55b74b(0xee),'');else this[_0x55b74b(0xf4)]('data-required');let _0x3d3f56=[];if(_0x4800a7)try{_0x3d3f56=JSON[_0x55b74b(0xca)](_0x4800a7);}catch{_0x3d3f56=_0x4800a7[_0x55b74b(0xc7)](',')[_0x55b74b(0xd5)](_0x1266f1=>{const _0x3e921f=_0x55b74b,[_0x350309,..._0x203a5b]=_0x1266f1[_0x3e921f(0xf8)]()[_0x3e921f(0xc7)](':');return{'value':_0x350309,'label':_0x203a5b['join'](':')||_0x350309};});}const _0x203732=CupElement[_0x55b74b(0xcd)](_0x15d0af?_0x488f53+'-hint':null,_0x3f9bef?_0x488f53+_0x55b74b(0xd8):null),_0x3b631d=[_0x45ed89?'<option\x20value=\x22\x22\x20disabled'+(!_0x4f9633?_0x55b74b(0xd4):'')+'>'+_0x45ed89+'</option>':'',..._0x3d3f56[_0x55b74b(0xd5)](_0xb86cef=>'<option\x20value=\x22'+_0xb86cef['value']+'\x22'+(_0xb86cef[_0x55b74b(0xe1)]===_0x4f9633?'\x20selected':'')+'>'+_0xb86cef['label']+_0x55b74b(0xda))][_0x55b74b(0xc9)](Boolean)['join'](''),_0x288e34=[_0x55b74b(0xdf),_0x55b74b(0xde)+_0x488f53+_0x55b74b(0xe7),_0xf8ed9?_0x55b74b(0xdd):'',_0xb3025d?'name=\x22'+_0xb3025d+'\x22':'',_0x2df062?_0x55b74b(0xf3):'',_0x3f9bef?'aria-invalid=\x22true\x22':'',_0x203732?_0x55b74b(0xd3)+_0x203732+'\x22':'']['filter'](Boolean)[_0x55b74b(0xc8)]('\x20');this['innerHTML']=[_0x7a596c?_0x55b74b(0xf1)+_0x488f53+'-input\x22'+(_0x2df062?'\x20data-required':'')+'>'+_0x7a596c+'</label>':'',_0x55b74b(0xd0)+_0x288e34+'>'+_0x3b631d+_0x55b74b(0xf6),_0x15d0af?_0x55b74b(0xf7)+_0x488f53+'-hint\x22>'+_0x15d0af+_0x55b74b(0xea):'',_0x3f9bef?_0x55b74b(0xcf)+_0x488f53+'-error\x22\x20role=\x22alert\x22>'+_0x3f9bef+_0x55b74b(0xea):'']['filter'](Boolean)[_0x55b74b(0xc8)]('\x0a');}}function a0_0x57b4(){const _0x3489c8=['AgLUDa','DvjHsgW','mZbsqLbxquC','BgfIzwW','ruPbz3m','C3bSAxq','AM9PBG','zMLSDgvY','CgfYC2u','yM9VBa','C2v0qxr0CMLIDxrL','zgvZy3jPyMvKqNK','CMvUzgvY','phnWyw4Gy2XHC3m9iMn1Cc1LCNjVCIiGAwq9iG','phnLBgvJDca','mZC5ndKYEuzSBhzs','B3b0Aw9UCW','yxjPys1KzxnJCMLIzwrIEt0I','ihnLBgvJDgvK','BwfW','y3vWlxnLBgvJDa','mtHKBw5mt2K','lwvYCM9Y','yxr0CG','pc9VChrPB24+','B2jZzxj2zwrbDhrYAwj1DgvZ','mte5mtK3odDbu255wg4','zgLZywjSzwq','Awq9iG','y2XHC3m9iMn1Cc1PBNb1Dci','ofLWv2neBq','DMfSDwu','zgf0ys1ZDgf0zq','BMfTzq','mZyZotK1mgPbCuHLsq','mJyWmZe2oxvgCNHUuG','ndiWnty3mgPWrenVvW','lwLUChv0iG','CMvXDwLYzwq','zxjYB3i','pc9ZCgfUpG','mty0mNP2r25mAG','owHVz2fPsq','z2z3BNi','zgf0ys1Yzxf1AxjLza','ndqZoda1EvjKA3n2','y3vWlwzPzwXK','pgXHyMvSignSyxnZpsjJDxaTBgfIzwWIigzVCJ0I','CgXHy2vOB2XKzxi','yxjPys1Yzxf1AxjLzd0IDhj1zsi','CMvTB3zLqxr0CMLIDxrL','wg1Ty2W','pc9ZzwXLy3q+','phnWyw4Gy2XHC3m9iMn1Cc1OAw50iIbPzd0I','DhjPBq','y2XHC3noyw1L'];a0_0x57b4=function(){return _0x3489c8;};return a0_0x57b4();}customElements['define'](a0_0x3eb5e4(0xd6),CupSelect);function a0_0x3aa0(_0x5451a3,_0x46a0e9){_0x5451a3=_0x5451a3-(0x1*-0x2563+-0x1*-0x118a+-0x3*-0x6df);const _0x2a31e5=a0_0x57b4();let _0x55f8eb=_0x2a31e5[_0x5451a3];if(a0_0x3aa0['MKesoM']===undefined){var _0x510288=function(_0xdeba82){const _0x1096ee='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x476311='',_0x2b4795='';for(let _0x3a42f1=0x2001+-0x2483+0x1*0x482,_0x1f3fa4,_0x3d997d,_0x167df3=-0x13f3*0x1+0x1*0x1b31+0x1*-0x73e;_0x3d997d=_0xdeba82['charAt'](_0x167df3++);~_0x3d997d&&(_0x1f3fa4=_0x3a42f1%(-0x1d96+-0xb47*0x1+0x28e1)?_0x1f3fa4*(-0x1dbc+-0x1e2f+0x3c2b)+_0x3d997d:_0x3d997d,_0x3a42f1++%(-0xcc2+-0x151*0x17+0x2b0d))?_0x476311+=String['fromCharCode'](0x1a2*-0x16+-0x15fe+0x3ae9&_0x1f3fa4>>(-(-0x179*0xd+0x46*-0x3e+0x241b)*_0x3a42f1&-0x68+-0x25*0x81+0x1313)):-0x13*0x139+-0x1f91*-0x1+0x1*-0x856){_0x3d997d=_0x1096ee['indexOf'](_0x3d997d);}for(let _0x5f29f5=-0x12f0+0xe3*-0x11+-0x2203*-0x1,_0x17affe=_0x476311['length'];_0x5f29f5<_0x17affe;_0x5f29f5++){_0x2b4795+='%'+('00'+_0x476311['charCodeAt'](_0x5f29f5)['toString'](-0x5f2*0x1+0x40*0x7e+-0x197e))['slice'](-(-0x20e2*0x1+-0xad*0xd+0x29ad));}return decodeURIComponent(_0x2b4795);};a0_0x3aa0['unlUkU']=_0x510288,a0_0x3aa0['YiJdmH']={},a0_0x3aa0['MKesoM']=!![];}const _0x416890=_0x2a31e5[-0x167c+0x7*0x427+-0x695],_0x346fb5=_0x5451a3+_0x416890,_0x2431ec=a0_0x3aa0['YiJdmH'][_0x346fb5];return!_0x2431ec?(_0x55f8eb=a0_0x3aa0['unlUkU'](_0x55f8eb),a0_0x3aa0['YiJdmH'][_0x346fb5]=_0x55f8eb):_0x55f8eb=_0x2431ec,_0x55f8eb;}export{CupSelect};
+// cup-core/components/cup-select.js — <cup-select> micro component
+import { CupElement } from '../cup-element.js';
+
+class CupSelect extends CupElement {
+  static get observedAttributes() {
+    return ['label', 'options', 'required', 'error', 'hint', 'disabled', 'value', 'name', 'placeholder'];
+  }
+
+  render() {
+    const id = this.cupId;
+    const label = this.attr('label');
+    const optionsRaw = this.attr('options');
+    const error = this.attr('error');
+    const hint = this.attr('hint');
+    const required = this.bool('required');
+    const disabled = this.bool('disabled');
+    const value = this.attr('value');
+    const name = this.attr('name');
+    const placeholder = this.attr('placeholder');
+
+    this.className = 'cup-field';
+    if (error) this.setAttribute('data-state', 'error');
+    else this.removeAttribute('data-state');
+    if (required) this.setAttribute('data-required', '');
+    else this.removeAttribute('data-required');
+
+    // Parse options: "value1:Label 1,value2:Label 2" or JSON array
+    let options = [];
+    if (optionsRaw) {
+      try {
+        options = JSON.parse(optionsRaw);
+      } catch {
+        options = optionsRaw.split(',').map(o => {
+          const [val, ...rest] = o.trim().split(':');
+          return { value: val, label: rest.join(':') || val };
+        });
+      }
+    }
+
+    const describedBy = CupElement.describedBy(
+      hint ? `${id}-hint` : null,
+      error ? `${id}-error` : null
+    );
+
+    const optionHtml = [
+      placeholder ? `<option value="" disabled${!value ? ' selected' : ''}>${placeholder}</option>` : '',
+      ...options.map(o => `<option value="${o.value}"${o.value === value ? ' selected' : ''}>${o.label}</option>`)
+    ].filter(Boolean).join('');
+
+    const selectAttrs = [
+      `class="cup-input"`,
+      `id="${id}-input"`,
+      disabled ? 'disabled' : '',
+      name ? `name="${name}"` : '',
+      required ? 'aria-required="true"' : '',
+      error ? 'aria-invalid="true"' : '',
+      describedBy ? `aria-describedby="${describedBy}"` : '',
+    ].filter(Boolean).join(' ');
+
+    this.innerHTML = [
+      label ? `<label class="cup-label" for="${id}-input"${required ? ' data-required' : ''}>${label}${required ? '<span aria-hidden="true" style="color:var(--cup-color-error)"> *</span>' : ''}</label>` : '',
+      `<select ${selectAttrs}>${optionHtml}</select>`,
+      hint ? `<span class="cup-hint" id="${id}-hint">${hint}</span>` : '',
+      error ? `<span class="cup-error" id="${id}-error" role="alert">${error}</span>` : '',
+    ].filter(Boolean).join('\n');
+  }
+}
+
+customElements.define('cup-select', CupSelect);
+export { CupSelect };
