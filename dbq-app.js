@@ -112,25 +112,10 @@
   }
   function setError(name, msg) {
     var el = form.querySelector('cup-field[name="' + name + '"], cup-select[name="' + name + '"], cup-textarea[name="' + name + '"], cup-checkbox[name="' + name + '"]');
-    if (el) {
-      el.setAttribute('error', msg);
-      // cup-checkbox doesn't render error attribute, add visible message
-      if (el.tagName === 'CUP-CHECKBOX') {
-        var errId = 'err-' + name;
-        if (!document.getElementById(errId)) {
-          var errEl = document.createElement('div');
-          errEl.id = errId;
-          errEl.className = 'dbq-field-error';
-          errEl.textContent = msg;
-          el.parentNode.insertBefore(errEl, el.nextSibling);
-        }
-      }
-    }
+    if (el) el.setAttribute('error', msg);
   }
   function clearErrors() {
     form.querySelectorAll('cup-field[error],cup-select[error],cup-textarea[error],cup-checkbox[error]')
       .forEach(function (el) { el.removeAttribute('error'); });
-    form.querySelectorAll('.dbq-field-error')
-      .forEach(function (el) { el.remove(); });
   }
 })();
