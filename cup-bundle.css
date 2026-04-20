@@ -2,6 +2,9 @@
 /* Generated: 2026-04-17 — includes: reset, tokens, a11y, nano, micro, components, motion, responsive, print, light theme */
 /* Excluded: dark.css (unused — site is light-only) */
 
+/* Explicit layer order: cup-override LAST so dbq-theme.css overrides default theme */
+@layer cup-reset, cup-tokens, cup-nano, cup-micro, cup-component, cup-motion, cup-theme, cup-override;
+
 /* === reset.css === */
 /* cup-core/reset.css — Minimal Reset
  * Opinionated defaults for consistent cross-browser rendering.
