@@ -1,0 +1,39 @@
+name: Deploy to GoDaddy
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type "deploy" to confirm production deployment'
+        required: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.event.inputs.confirm == 'deploy'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Collect site files
+        run: |
+          mkdir -p _deploy
+          cp *.html *.css *.js *.ico *.png *.xml *.txt _deploy/ 2>/dev/null || true
+          cp -r img components themes _deploy/ 2>/dev/null || true
+          ls -la _deploy/
+
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          local-dir: ./_deploy/
+          server-dir: /public_html/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            **/cypress/**
+            **/*.md
+            **/package*.json
+            **/.github/**
