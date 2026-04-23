@@ -117,6 +117,6 @@ Competitors emphasize fast turnaround:
 
 - **Former VA Raters** — unique differentiator most competitors lack
 - **M21-1 expertise** — no competitor mentions the rating manual
-- **Dr. Green's direct involvement** — once his photo/bio is added
-- **Professional tech stack** — clean, fast site (cup-core framework)
+- **Dr. Greene's direct involvement** — once his photo/bio is added
+- **Professional tech stack** — clean, fast site (cup-ui framework)
 - **Sacramento base** — capital city location for CA veterans
