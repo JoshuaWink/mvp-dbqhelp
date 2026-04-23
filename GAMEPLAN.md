@@ -1,7 +1,7 @@
 # DBQ Help — Game Plan
 
 **Date**: April 21, 2026
-**Source**: Dr. Green meeting debrief
+**Source**: Dr. Greene meeting debrief
 
 ---
 
@@ -14,17 +14,17 @@
 
 ## Work Items
 
-### 1. Dr. Green's Personal Presence on the Site
+### 1. Dr. Greene's Personal Presence on the Site
 **Priority: High** — Core trust signal
 
-- Add a professional photo of Dr. Green to the site
-- Write a personal message section ("A Message from Dr. Green") on the homepage or About page
+- Add a professional photo of Dr. Greene to the site
+- Write a personal message section ("A Message from Dr. Greene") on the homepage or About page
 - Include his title, credentials, and role (CEO / Psychologist)
 - This replaces the generic "Built by VA Professionals" placeholder on the homepage
 
-**Needs from Eric/Dr. Green:**
+**Needs from Eric/Dr. Greene:**
 - Professional headshot photo
-- Preferred title/credential line (e.g., "Dr. Pete Green, PsyD, CEO")
+- Preferred title/credential line (e.g., "Dr. Eric Greene, PsyD, CEO")
 - Short personal message or approval to draft one
 
 ### 2. California-Specific Targeting
@@ -38,7 +38,7 @@
 - Consider adding city-specific landing pages (Sacramento, LA, San Diego, San Francisco) for local SEO
 
 ### 3. SEO Optimization
-**Priority: High** — Dr. Green's main ask
+**Priority: High** — Dr. Greene's main ask
 
 - **On-page SEO**: Title tags, meta descriptions, H1/H2 hierarchy, keyword density
 - **Local SEO**: Google Business Profile setup (if not already done), California targeting
@@ -50,7 +50,7 @@
 **Priority: Medium** — "Jazz it up"
 
 - Create 2-3 mockup options, each as its own GitHub Pages site
-- Dr. Green can review each at a live URL and pick a direction
+- Dr. Greene can review each at a live URL and pick a direction
 - Focus on: professional feel, trustworthiness, clear CTAs
 - Keep the green forest theme (already branded)
 - Improve imagery — real photos vs. SVG icons where possible
@@ -91,7 +91,7 @@
 - Set up Google Analytics 4 (GA4) on the site
 - Set up Google Search Console for `dbqhelp.com`
 - Track: page views, bounce rate, call button clicks, contact form submissions
-- Monthly check-in cadence on metrics with Dr. Green
+- Monthly check-in cadence on metrics with Dr. Greene
 - Consider heatmap tool (Hotjar free tier or Microsoft Clarity — free)
 
 ---
@@ -101,7 +101,7 @@
 | Phase | Items | Target |
 |-------|-------|--------|
 | **Now** | SSL ✅, hosting ✅ | Done |
-| **Phase 1** | California copy update, SEO basics, Dr. Green photo/bio | This week |
+| **Phase 1** | California copy update, SEO basics, Dr. Greene photo/bio | This week |
 | **Phase 2** | Analytics setup, Search Console, staging pipeline | Next week |
 | **Phase 3** | Design mockups, competitor research, local SEO pages | Following week |
 
@@ -111,12 +111,12 @@
 
 | Item | Owner | Status |
 |------|-------|--------|
-| Professional headshot | Dr. Green / Eric | Needed |
-| Personal message copy or approval to draft | Dr. Green | Needed |
+| Professional headshot | Dr. Greene / Eric | Needed |
+| Personal message copy or approval to draft | Dr. Greene | Needed |
 | Google Business Profile access (if exists) | Eric | Check |
 
 ---
 
-## Key Principles (from Dr. Green)
+## Key Principles (from Dr. Greene)
 
 > **Reputable. Professional. Trustworthy. A face behind the brand. California-focused. Right metrics.**
