@@ -46,6 +46,6 @@ describe('FAQ page', () => {
 
   it('renders CTA section', () => {
     cy.get('.dbq-cta').contains('Still Have Questions');
-    cy.get('.dbq-cta a[href="tel:+19162020558"]').should('exist');
+    cy.get('.dbq-cta a[href="tel:+13105718904"]').should('exist');
   });
 });

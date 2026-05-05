@@ -13,7 +13,7 @@ describe('Contact page', () => {
   it('renders contact info with phone', () => {
     cy.get('.dbq-contact-info').should('exist');
     cy.get('.dbq-contact-info').contains('Get in Touch');
-    cy.get('.dbq-contact-info a[href="tel:+19162020558"]').should('exist');
+    cy.get('.dbq-contact-info a[href="tel:+13105718904"]').should('exist');
   });
 
   it('renders contact info with email', () => {

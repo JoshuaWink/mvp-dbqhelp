@@ -33,6 +33,6 @@ describe('Services page', () => {
 
   it('renders CTA section', () => {
     cy.get('.dbq-cta').contains('Ready to Start');
-    cy.get('.dbq-cta a[href="tel:+19162020558"]').should('exist');
+    cy.get('.dbq-cta a[href="tel:+13105718904"]').should('exist');
   });
 });

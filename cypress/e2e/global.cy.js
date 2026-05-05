@@ -24,7 +24,7 @@ describe('Global — all pages', () => {
 
       it('renders phone number in header', () => {
         cy.get('.dbq-header__phone').should('exist');
-        cy.get('.dbq-header__phone').should('have.attr', 'href', 'tel:+19162020558');
+        cy.get('.dbq-header__phone').should('have.attr', 'href', 'tel:+13105718904');
       });
 
       it('renders footer with both taglines', () => {

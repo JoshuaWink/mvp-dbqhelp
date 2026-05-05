@@ -45,7 +45,7 @@ describe('About page', () => {
 
   it('renders CTA section', () => {
     cy.get('.dbq-cta').contains('Let Us Help You');
-    cy.get('.dbq-cta a[href="tel:+19162020558"]').should('exist');
+    cy.get('.dbq-cta a[href="tel:+13105718904"]').should('exist');
     cy.get('.dbq-cta a[href="contact.html"]').should('exist');
   });
 });

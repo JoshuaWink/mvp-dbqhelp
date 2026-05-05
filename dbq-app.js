@@ -76,12 +76,12 @@
         form.style.display = 'none';
         successBox.style.display = 'block';
       } else {
-        alert('Something went wrong. Please call us at 916-202-0558.');
+        alert('Something went wrong. Please call us at 310-571-8904.');
         if (submitBtn) submitBtn.removeAttribute('disabled');
       }
     })
     .catch(function () {
-      alert('Could not send message. Please call us at 916-202-0558.');
+      alert('Could not send message. Please call us at 310-571-8904.');
       if (submitBtn) submitBtn.removeAttribute('disabled');
     });
   });
